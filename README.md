@@ -21,6 +21,7 @@ Project is created with:
 The Git Flow Strategy will be used for this project.
 * A develop branch is created from main
 * A release branch is created from develop
+* In the release branch will be pushed the final product code
 * Feature branches are created from develop
 * When a feature is complete it is merged into the develop branch
 * When the release branch is done it is merged into develop and main
