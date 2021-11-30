@@ -131,12 +131,6 @@
         $("#sticker").sticky({
             topSpacing: 0
         });
-
-        //mean menu
-        $('.main-menu').meanmenu({
-            meanMenuContainer: '.mobile-menu',
-            meanScreenWidth: "992"
-        });
         
          // search form
         $(".search-bar-icon").on("click", function(){
