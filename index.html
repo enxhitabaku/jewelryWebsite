@@ -55,6 +55,12 @@
 			justify-content: center;
 			align-items: center;
 		}
+
+		/* Reorder Btn on Second Adv Banner */
+		#monthlyDealBtn{
+			text-align: center;
+    		min-width: 155px;
+		}
 	</style>
 </head>
 
@@ -251,7 +257,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-lg-4 col-md-6 text-center">
+				<div class="col col-sm-12 col-lg-4 col-md-4 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
 							<a href="single-product.html"><img src="./assets/img/HomePage/GIOVANNI_RASPINI.jpeg"
@@ -259,17 +265,38 @@
 						</div>
 						<h3>Giovanni Raspini</h3>
 						<p class="product-price"><span>BRACELET</span>195&euro;</p>
-						<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i></i>Add To Wishlist</a>
+						
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
+								</div>
+								<div class="col">
+									<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-bag"></i>Buy Now</a>
+								</div>
+							</div>
+						</div>
+						
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 text-center">
+				<div class="col col-sm-12 col-lg-4 col-md-4 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
 							<a href="single-product.html"><img src="./assets/img/HomePage/Azul.jpg" alt=""></a>
 						</div>
 						<h3>Azul</h3>
-						<p class="product-price"><span>NECKLATE</span>145&euro;</p>
-						<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i></i>Add To Wishlist</a>
+						<p class="product-price"><span>NECKLACE</span>145&euro;</p>
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
+								</div>
+								<div class="col">
+									<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-bag"></i>Buy Now</a>
+								</div>
+							</div>
+						</div>
+						
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
@@ -279,7 +306,17 @@
 						</div>
 						<h3>Music</h3>
 						<p class="product-price"><span>NECKLACE EARRINGS AND BRACELET</span>185&euro;</p>
-						<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i></i>Add To Wishlist</a>
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
+								</div>
+								<div class="col">
+									<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-bag"></i>Buy Now</a>
+								</div>
+							</div>
+						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -328,7 +365,7 @@
 							</div>
 						</div>
 					</div>
-					<a href="cart.html" class="cart-btn mt-3"><i class="fa-regular fa-heart"></i></i>Add To Wishlist</a>
+					<a href="cart.html" class="cart-btn mt-3" id="monthlyDealBtn"><i class="fas fa-shopping-bag"></i>Buy Now</a>
 				</div>
 			</div>
 		</div>
