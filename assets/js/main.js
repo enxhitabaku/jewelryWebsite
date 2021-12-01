@@ -112,6 +112,12 @@
             }
         });
 
+        //mean menu
+        $('.main-menu').meanmenu({
+            meanMenuContainer: '.mobile-menu',
+            meanScreenWidth: "992"
+        });
+
         // homepage slides animations
         $(".homepage-slider").on("translate.owl.carousel", function(){
             $(".hero-text-tablecell .subtitle").removeClass("animated fadeInUp").css({'opacity': '0'});
