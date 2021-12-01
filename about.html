@@ -141,7 +141,7 @@
 		<h2 class="pb-3 text-center">About <span class="orange-text">Us</span></h2> <br>
 		<div class="row justify-content-center mt-50 mb-150">
 			<div class="col-lg-4 align-self-center g-3">
-				<h3 class="orange-text">Come nasce Pietra di Luna</h3>
+				<h3 class="orange-text text-center text-md-left">Come nasce Pietra di Luna</h3>
 				<p>Pietra di Luna nasce dalla fusione di due marchi di gioielli, ovvero Dernier Natìf e McLoud. 
 					Entrambi realizzavano oggetti con l’ausilio di pietre dure ed entrambi possedevano tutte le 
 					caratteristiche adatte per creare un design innovativo per candidarsi come leader nel settore.
@@ -150,17 +150,17 @@
 					i loro prodotti di qualità superiore. Pertanto Pietra di Luna elabora e “scolpisce” quelle che sono le stesse idee 
 					che hanno prodotto in passato pezzi talmente belli e unicamente perfetti tali da rimanere indelebili nella storia.</p>
 			</div>
-			<div class="col-lg-4">
-				<img src="assets/img/AboutUsPage/pic4.jpg" alt="" class="w-100 img-fluid">
+			<div class="col-lg-4 mt-5 mt-md-0">
+				<img src="assets/img/AboutUsPage/pic4.jpg" alt="" class="w-100 img-fluid rounded animated img1">
 			</div>
 		</div>
 		<div class="row justify-content-center pt-80 pb-100 mb-200">
 
 			<div class="col-lg-4">
-				<img src="assets/img/AboutUsPage/pic6.jpg" alt="" class="w-100 img-fluid">
+				<img src="assets/img/AboutUsPage/pic6.jpg" alt="" class="w-100 img-fluid rounded animated img2">
 			</div>
 			<div class="col-lg-4 align-self-center">
-				<h3 class="orange-text">Come nascono i nostri gioielli</h3>
+				<h3 class="orange-text text-center text-md-left mt-5 mt-md-0">Come nascono i nostri gioielli</h3>
 				<p>I gioielli Pietra di Luna sono un sogno ad occhi aperti. Particolare è la scelta accurata delle pietre semi preziose e 
 					preziose utilizzate. Gli ori e gli argenti utilizzati per il design sono selezionati ad arte. 
 					Persino la seta, le maglie, la minuteria sono di ottima fattura e controllati in ogni singolo dettaglio. 
@@ -182,9 +182,9 @@
 	<div class="feature-bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7">
+				<div class="col-lg-7 mb-5 mb-md-0">
 					<div class="featured-text">
-						<h2 class="pb-3">Why <span class="orange-text">Pietra di Luna</span></h2>
+						<h2 class="pb-3 text-center text-lg-left mb-5 mb-md-0">Why <span class="orange-text">Pietra di Luna</span></h2>
 						<div class="row">
 							<div class="col-lg-6 col-md-6 mb-4 mb-md-5">
 								<div class="list-box d-flex">
@@ -233,8 +233,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-5">
-					<img class="img-fluid" style="max-height: 400px; min-width: 600px;" src="assets/img/AboutUsPage/cover1.jpg" alt="">
+				<div class="col-lg-5 mt-5 mt-md-0">
+					<img class="img-fluid rounded w-100" style="max-height: 400px;" src="assets/img/AboutUsPage/cover1.jpg" alt="">
 				</div>
 			</div>
 		</div>
@@ -329,6 +329,21 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+
+	<script>
+		const observer = new IntersectionObserver(entries => {
+			// Loop over the entries
+			entries.forEach(entry => {
+				// If the element is visible
+				if (entry.isIntersecting) {
+					// Add the animation class
+					entry.target.classList.add('bounceInUp');
+				}
+			});
+		});
+		observer.observe(document.querySelector('.img1'));
+		observer.observe(document.querySelector('.img2'));
+	</script>
 
 </body>
 </html>
