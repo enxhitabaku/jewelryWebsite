@@ -37,6 +37,12 @@
     background-color: #7395AE;
     content: "";
   }
+
+  @media only screen and (max-width: 767.96px) {
+    h2.widget-title:after {
+      left: calc(50% - 10px);
+    }
+  }
   
   .footer-box p {
     color: #fff;
