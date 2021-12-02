@@ -1,0 +1,230 @@
+.breadcrumb-bg {
+    background-image: url(../img/WorkWithUs/alissa-de-leva-DeM8mEQf138-unsplash.jpg);
+  }
+  
+  .breadcrumb-text p {
+    color: #7395AE;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+  }
+  
+  .breadcrumb-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .breadcrumb-section {
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    padding-top: 200px;
+  }
+  
+  .breadcrumb-section:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #07212e;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  
+
+   
+  /* -----------------------------------------------------------------------------
+  
+  # Work With us Page Styles
+  
+  ----------------------------------------------------------------------------- */
+  .form-title {
+    margin-bottom: 25px;
+  }
+  
+  .form-title h2 {
+    font-size: 25px;
+  }
+  
+  .form-title p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  
+  .contact-form form p input[type=text], .contact-form form p input[type=tel], .contact-form form p input[type=email] {
+    width: 49%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .contact-form form p textarea {
+    border: 1px solid #ddd;
+    padding: 15px;
+    height: 200px;
+    border-radius: 3px;
+    width: 100%;
+    resize: none;
+  }
+  
+  .contact-form-wrap {
+    background-color: #FBFBFB;
+    padding: 45px 30px;
+    border-radius: 5px;
+  }
+  
+  .contact-form-box {
+    padding-left: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form-box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form-box h4 i {
+    color: #7395AE;
+    top: 2px;
+  }
+  
+  .contact-form-box p {
+    line-height: 1.8;
+    opacity: 0.8;
+  }
+  
+  .contact-form-wrap .contact-form-box:last-child {
+    margin: 0;
+  }
+  
+  
+  #form_status span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    background: #7395AE;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 0px;
+    border-radius: 3px;
+    margin-bottom: 18px;
+  }
+  
+  #form_status span.loading {
+    color: #333;
+    background: #eee;
+    border-radius: 3px;
+    padding: 18px 0px;
+  }
+  
+  #form_status span.notice {
+    color: #7395AE;
+  }
+  
+  #form_status .success {
+    color: #fff;
+    text-align: center;
+    background: #2ecc71;
+    border-radius: 3px;
+    padding: 30px 0px;
+  }
+  
+  #form_status .success i {
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 14px;
+  }
+  
+  #form_status .success h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  /* -----------------------------------------------------------------------------
+  
+  # Job Styles
+  
+  ----------------------------------------------------------------------------- */
+  .news-bg-1 {
+    background-image: url(../img/WorkWithUs/job1.jpg);
+  }
+  
+  .news-bg-2 {
+    background-image: url(../img/WorkWithUs/job2.jpg);
+  }
+  
+  .news-bg-3 {
+    background-image: url(../img/WorkWithUs/job3.jpg);
+  }
+  
+
+  
+  .latest-news-bg {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-color: #ddd;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .single-latest-news h3 {
+    font-size: 20px;
+    line-height: 1.25em;
+    font-weight: 600;
+  }
+  
+  .single-latest-news h3 a {
+    color: #051922;
+  }
+  
+  p.blog-meta span {
+    margin-right: 15px;
+    opacity: 0.6;
+    color: #051922;
+    font-size: 0.85em;
+  }
+  
+  p.blog-meta span:last-child {
+    margin-right: 0;
+  }
+  
+  p.blog-meta span i {
+    margin-right: 5px;
+  }
+  
+  p.excerpt {
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  .latest-news a.boxed-btn {
+    margin-top: 80px;
+  }
+  
+  .news-text-box {
+    padding: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .single-latest-news {
+    margin-bottom: 30px;
+  }
+  
+  .single-artcile-bg {
+    background-image: url(../img/latest-news/news-bg-3.jpg);
+    height: 450px;
+  }
