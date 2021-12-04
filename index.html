@@ -37,14 +37,17 @@
 	<link rel="stylesheet" href="./assets/css/navbar.css">
 	<link rel="stylesheet" href="./assets/css/meanmenu.min.css">
 
+	<!-- animate style -->
+	<link rel="stylesheet" href="./assets/css/animate.css">
+
 	<!-- footer style -->
 	<link rel="stylesheet" href="./assets/css/footer.css">
 
 	<!-- responsive -->
 	<link rel="stylesheet" href="./assets/css/responsive.css">
 
-	<!-- animate -->
-	<link rel="stylesheet" href="./assets/css/animate.css">
+	<!-- waves -->
+	<link rel="stylesheet" href="./assets/css/waves.css">
 
 	<!-- Contact Us -->
 	<link rel="stylesheet" href="./assets/css/workwith.css">
@@ -57,7 +60,7 @@
 	</style>
 </head>
 
-<body>
+<body class="bg-secondary">
 
 	<!--PreLoader-->
 	<div class="loader">
@@ -234,10 +237,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-4">
-					<div class="footer-box about-widget">
+					<div class="footer-box about-widget subscribe">
 						<h2 class="widget-title text-center text-md-left">About us</h2>
-						<p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium
+						<div class="row">
+							<p class="text-center text-md-left col-12">Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium
 							doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+							<form action="" class="col-12">
+								<button type="submit" class="w-100 waves-effect waves-dark"><i class="fas fa-circle-info"></i> Read more</button>
+							</form>
+						</div>
+						
+							
 					</div>
 				</div>
 				<div class="col-12 col-md-4">
@@ -291,12 +301,14 @@
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<!-- count down -->
+	<!-- isotope -->
 	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
 	<!-- waypoints -->
 	<script src="assets/js/waypoints.js"></script>
 	<!-- owl carousel -->
 	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- Mean Menu -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
 	<!-- magnific popup -->
 	<script src="assets/js/jquery.magnific-popup.min.js"></script>
 	<!-- mean menu -->
@@ -305,6 +317,8 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+	<!-- waves js -->
+	<script src="assets/js/waves.js"></script>
 
 	<script>
 		const observer = new IntersectionObserver(entries => {
