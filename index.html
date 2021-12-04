@@ -45,6 +45,9 @@
 	<!-- footer style -->
 	<link rel="stylesheet" href="./assets/css/footer.css">
 
+	<!-- single product style -->
+	<link rel="stylesheet" href="./assets/css/singleproduct.css">
+
 	<!-- responsive -->
 	<link rel="stylesheet" href="./assets/css/responsive.css">
 
@@ -106,7 +109,7 @@
 	</style>
 </head>
 
-<body class="bg-secondary">
+<body class="">
 
 	<!--PreLoader-->
 	<div class="loader">
@@ -117,7 +120,7 @@
 	<!--PreLoader Ends-->
 
 	<!-- Nav -->
-	<div id="sticker-sticky-wrapper" class="sticky-wrapper" style="height: 106px;">
+	<div id="sticker-sticky-wrapper" class="sticky-wrapper" style="height: 106px; background-color: #0c1923;">
 		<div class="top-header-area" id="sticker">
 			<div class="container">
 				<div class="row">
@@ -128,7 +131,7 @@
 									<img src="assets/img/HomePage/logoLuna.png" alt="website template image">
 								</a>
 							</div>
-							<nav class="main-menu" style="display: block;">
+							<nav class="main-menu p-3" style="display: block;">
 								<ul>
 									<li class="current-list-item"><a href="#">Home</a></li>
 									<li><a href="pages/about.php">About</a></li>
@@ -165,7 +168,7 @@
 						<div class="search-bar-tablecell">
 							<h3>Search For:</h3>
 							<input type="text" placeholder="Keywords">
-							<button type="submit">Search<i class="fas fa-search"></i></button>
+							<button type="submit" class="waves-effect waves-dark">Search<i class="fas fa-search"></i></button>
 						</div>
 					</div>
 				</div>
@@ -177,7 +180,25 @@
 
 
 <!-- CODE IN HERE -->
-	<section style="height: 100vh;">
+	<section style="height: 100vh;" class="container product-page-div">
+		<div class="container">
+			<div class="row mt-150 pt-5 g-5">
+				<!-- Product Carousel section -->
+				<div class="col-7 owl-carousel">
+					<img src="assets/img/HomePage/cover2.jpg" alt="" class="item product-images">
+					<img src="assets/img/HomePage/cover3.jpg" alt="" class="item product-images">
+					<img src="assets/img/HomePage/pic4.jpg" alt="" class="item product-images">
+					
+				</div> <!-- end Product Carousel section -->
+
+				<!-- Product Info section -->
+				<div class="col-5 text-dark">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eaque, 
+						illum aut maiores expedita quam perferendis nulla natus provident 
+						deserunt soluta itaque exercitationem ab? Cumque quae in fugiat nobis quidem.</p>
+				</div> <!-- end Product Info section -->
+			</div>
+		</div>
 
 	</section>
 
@@ -264,6 +285,8 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+	<!-- single product js -->
+	<script src="assets/js/singleproduct.js"></script>
 	<!-- waves js -->
 	<script src="assets/js/waves.js"></script>
 

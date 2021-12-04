@@ -282,6 +282,10 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
     display: inline-block;
     border-radius: 50px;
     font-weight: 700;
+    outline: none;
+  }
+  .search-bar-tablecell button[type=submit]:active {
+    outline: none;
   }
   
   .search-bar-tablecell input::-webkit-input-placeholder {
