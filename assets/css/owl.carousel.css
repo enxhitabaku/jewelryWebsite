@@ -231,12 +231,12 @@
 	width: 15px;
 	height: 15px;
 	margin: 24px 7px;
-	background-color: #7395AE;
+	background-color: #B1A296;
 	display: block;
 	-webkit-backface-visibility: visible;
 	transition: opacity,background-color 300ms ease;
 	border-radius: 30px;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-	background-color: #3c4e5c;
+	background-color: #615145;
 }

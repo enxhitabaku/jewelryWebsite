@@ -180,11 +180,10 @@
 
 
 <!-- CODE IN HERE -->
-	<section style="height: 100vh;" class="container product-page-div">
-		<div class="container">
-			<div class="row mt-150 pt-5 g-5">
+	<section class="container-fluid product-page-div">
+			<div class="row mt-150 mb-150 pt-5 justify-content-center">
 				<!-- Product Carousel section -->
-				<div class="col-7 product-carousel owl-theme">
+				<div class="col-lg-5 col-12 product-carousel owl-theme">
 					
 					<img src="assets/img/HomePage/cover2.jpg" alt="" class="item product-images">
 					<img src="assets/img/HomePage/cover3.jpg" alt="" class="item product-images">
@@ -193,15 +192,90 @@
 				</div> <!-- end Product Carousel section -->
 					
 				<!-- Product Info section -->
-				<div class="col-5 text-dark">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eaque, 
-						illum aut maiores expedita quam perferendis nulla natus provident 
-						deserunt soluta itaque exercitationem ab? Cumque quae in fugiat nobis quidem.</p>
+				<div class="col-lg-3 col-12 text-dark">
+					<div class="row justify-content-center">
+						<div class="product-tittle col-12 text-center">
+							<h4>SQUARE CHAIN BRACELET</h4>
+						</div>
+						<div class="product-price col-12 mt-4">
+							<h5 class="text-center"> 35,90 &euro;</h5>
+						</div>
+						<div class="horizontal-line col-12 mt-4">
+							<hr style="color: #B1A296;border: none; height: 1px; max-width: 100%; background-color: #B1A296;">
+						</div>
+						<div class="action-buttons wishlist-button col-12">
+							<button type="button" class="w-100 waves-effect waves-light"> Add to wishlist <i class="far fa-heart"></i></button>
+						</div>
+						<div class="action-buttons buy-button col-12 mt-3">
+							<button type="button" class="w-100 waves-effect waves-light"> Buy it Now <i class="fas fa-shopping-cart"></i></button>
+						</div>
+						<div class="col-12 mt-5 info-tab">
+							<ul class="nav nav-tabs" id="infoTab" role="tablist">
+								<li class="nav-item waves-effect waves-dark">
+								  <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
+								</li>
+								<li class="nav-item waves-effect waves-dark">
+								  <a class="nav-link" id="details-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details" aria-selected="false">Details</a>
+								</li>
+								<li class="nav-item waves-effect waves-dark">
+								  <a class="nav-link" id="shipping-tab" data-toggle="tab" href="#shipping" role="tab" aria-controls="shipping" aria-selected="false">Shipping</a>
+								</li>
+							</ul>
+							<div class="tab-content ml-3" id="infoTab">
+								<div class="tab-pane fade show active mt-4" id="description" role="tabpanel" aria-labelledby="home-tab">
+									<p>The Square Chain Bracelet is refined in its minimalistic design. 
+										A bracelet that suits any outfit and will last for years. Features a minimalistic Vacier logo tag. </p>
+									<h6><i class="fas fa-calculator"></i> Adjustable sizing</h6>
+									<p>The Bracelet features an extension chain to suit your wrist size. No matter if you want the bracelet to be loose or tight, 
+										the extension chain allows you to find your preferred size. See more size information on the details page.</p>
+									<h6><i class="fas fa-tint"></i> Waterproof and durable</h6>
+									<p>All of Vacier's jewelry is minimal, yet durable. They are waterproof, 
+										so you can use them in the shower, sea and pool. 
+										The jewelry can be worn while training and sustains exposure to heat and sweat.</p>
+								</div>
+								<div class="tab-pane fade mt-4" id="details" role="tabpanel" aria-labelledby="profile-tab">
+									<h6><i class="fas fa-calculator"></i> Size Details</h6>
+									<p>A bracelet crafted to fit almost any wrist. It's made to fit the average wrist between 16 CM to 19 CM. 
+										The length of the regular size is roughly 17.5 CM 
+										with a 2 CM long extension chain. If you are not sure of your size, this size fits more than 95% of our customers. 
+										The width of the chain is 1.5 MM.</p>
+									<h6><i class="far fa-question-circle"></i> How to get the right size</h6>
+									<p>1. We suggest you use to put a piece of string around your wrist.</p>
+									<p>2. The length of the string will depend on your wrist size and how tight you want the bracelet to be. </p>		
+									<p>3. Measure the string with your ideal length. Pick the bracelet that is closest to your preferred length</p>
+								</div>
+								<div class="tab-pane fade mt-4" id="shipping" role="tabpanel" aria-labelledby="contact-tab">
+									<h6 class="text-center"><i class="fas fa-info-circle"></i> Delivery Information</h6>
+									<p>We ship to Europe, Asia, Africa from our Warehouse in Sweden. 
+										We ship to South and North America from our Warehouse in Texas in the US.
+										97% of our packages arrive on time. However, 
+										due to the pandemic delays may occur in some countries with regular post (Tracked Letter).</p>
+									<h6>14 day return policy, read more on our return policy page.</h6>
+									<p>To process a return or replacement please contact us on support@vacier.com. 
+										We allow up to 14 days from day of order dispatch to request a return. 
+										As soon as a return is received at our warehouse we will automatically 
+										process the refund or replacement.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
 				</div> <!-- end Product Info section -->
 			</div>
-		</div>
-
 	</section>
+
+	<!-- Modal Photo -->
+	<div class="modal-photo">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<button type="button" class="close-btn waves-effect waves-light ">&#10006;</button>
+					<img src="assets/img/HomePage/cover2.jpg" alt="" >
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end Modal Photo -->
 
 	<!-- footer -->
 	<div class="footer-area">

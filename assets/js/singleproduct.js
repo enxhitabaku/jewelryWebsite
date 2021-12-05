@@ -5,22 +5,33 @@ $(document).ready(function () {
         responsiveClass:true,
         nav:false,
         dots:true,
-        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+        //navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
         animateOut: 'fadeOut',
         responsive:{
             0:{
                 items:1,
-                nav:true
+                nav:false
             },
             600:{
                 items:1,
                 nav:false
             },
-            1000:{
+            993:{
                 items:1,
-                nav:true,
-                loop:false
+                nav:false,
+                loop:false,
+                mouseDrag: false
             }
         }
     })
+
+    $(".product-images").on("click", function(){
+        let src = $(this).attr('src');
+        $('.modal-photo img').attr('src', src);
+        $(".modal-photo").addClass("modal-active");
+    });
+
+    $(".modal-photo .close-btn").on("click", function() {
+        $(".modal-photo").removeClass("modal-active");
+    });
 });

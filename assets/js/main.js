@@ -143,9 +143,11 @@
             $(".search-area").addClass("search-active");
         });
 
-        $(".close-btn").on("click", function() {
+        $(".search-area .close-btn").on("click", function() {
             $(".search-area").removeClass("search-active");
         });
+
+       
     
     });
 
