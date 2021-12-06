@@ -5,7 +5,7 @@ $(document).ready(function () {
         responsiveClass:true,
         nav:false,
         dots:true,
-        //navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+        dotsEach:true,
         animateOut: 'fadeOut',
         responsive:{
             0:{
@@ -24,6 +24,18 @@ $(document).ready(function () {
             }
         }
     })
+
+    // This method listens to sliding and afterwards sets corresponding category to active
+    $('.controls-theme .controls-dot').on('click', function(){
+        $('.controls-theme .controls-dot').removeClass('active');
+        $(this).addClass('active');
+    });
+
+    $('.controls-theme .controls-dot').on('click', function(e) {
+        jQuery('.product-carousel').trigger('to.owl.carousel', [$(this).index(), 300]);
+    });
+    
+
 
     $(".product-images").on("click", function(){
         let src = $(this).attr('src');
