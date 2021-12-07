@@ -228,15 +228,16 @@
 	*display: inline;
 }
 .controls-theme .controls-dot img {
-	width: 75px;
-	height: 105px;
+	width: 68px;
+	height: 85px;
 	margin: 24px 7px;
 	display: block;
 	-webkit-backface-visibility: visible;
-	transition: opacity 300ms ease;
-	border-radius: 5px;
+	transition: opacity, height, width 300ms ease;
+	border-radius: 1px;
   cursor: pointer;
 }
 .controls-theme .controls-dot.active img, .controls-theme .controls-dot:hover img {
 	opacity: 0.4;
+  border: 2px solid black;
 }

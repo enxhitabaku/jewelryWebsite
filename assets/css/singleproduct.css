@@ -1,6 +1,7 @@
 .product-images {
   height: 700px;
-  width: 450px;
+  width: 710px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
