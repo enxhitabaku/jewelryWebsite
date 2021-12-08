@@ -171,3 +171,20 @@ div.owl-controls,
     opacity: 1;
     z-index: 999;
   }
+
+  .wishlist-alert .alert{
+    background-color: #012738;
+    border: none;
+  }
+  .wishlist-alert .alert h6{
+    color: #7395AE;
+    letter-spacing: 1px;
+  }
+  .wishlist-alert .alert button{
+    background-color: #012738;
+    color: #7395AE;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-right: 4px;
+  }

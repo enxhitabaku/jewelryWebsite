@@ -140,6 +140,7 @@
 									<li><a href="#">Products</a></li>
 									<li>
 										<div class="header-icons">
+											<a href="#"> <i class="far fa-user"></i> My account </a> 
 											<a href="#"> <i class="fa-regular fa-heart"></i> </a> 
 											<a class="mobile-hide search-bar-icon">
 												<i class="fas fa-search"></i>
@@ -163,7 +164,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<span class="close-btn"><i class="fas fa-window-close"></i></span>
+					<span class="close-btn waves-effect waves-light">&#10006;</span>
 					<div class="search-bar">
 						<div class="search-bar-tablecell">
 							<h3>Search For:</h3>
@@ -280,10 +281,19 @@
 							</div>
 						</div>
 					</div>
-					
 				</div> <!-- end Product Info section -->
 			</div>
 	</section>
+
+	<!-- alert -->
+	<div class="wishlist-alert row justify-content-end fixed-top mr-3 d-none">
+		<div class="alert alert-warning alert-dismissible fade show text-center col-lg-4 align-self-center" role="alert" style="top: 26px; height: 70px;">
+			<h6 class="mt-3"><i class="far fa-check-circle"></i> Product added to wishlist. 
+				<button type="button" class="close alert-close waves-effect waves-light mt-3" data-dismiss="alert" aria-label="Close">&#10006;</button>
+			</h6>
+		</div>
+	</div> <!-- end alert -->
+	 
 
 	<!-- Modal Photo -->
 	<div class="modal-photo">
@@ -295,8 +305,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- end Modal Photo -->
+	</div> <!-- end Modal Photo -->
+	
 
 	<!-- Similar Product Section -->
 	<div class="container mb-150 mt-150">
