@@ -1,0 +1,88 @@
+section{
+    background-color: white;
+}
+.sticky-wrapper{
+    position: sticky!important;
+    background-color: #051922;
+}
+
+#main-header{
+    display: flex;
+    flex-flow: column;
+    margin: 3.5em auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-header{
+    margin: auto;
+    text-align: center;
+}
+.centered-header h1{
+    font-size: 5rem;
+    letter-spacing: 8px;
+}
+.centered-header p{
+    max-width: fit-content;
+}
+
+#main-section{
+    margin: 3rem;
+}
+#main-section h2{
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+    padding: .375rem .75rem;
+}
+#main-section button{
+    border: none;
+    /* background-color: transparent; */
+    font-weight: bolder;
+
+    font-size: 1.3rem;
+    width: 15em;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 0.5rem;
+}
+#main-section .row{
+    flex-flow:column;
+    width: 21.75em;
+    margin-bottom: 1rem;
+}
+
+.arrow{
+    display: flex;
+    align-self: center;
+
+    border: solid black;
+    border-width: 0 3px 3px 0;
+
+    margin-left: 10px;
+    padding: 3px;
+}
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.up{
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+}
+
+.col input[type=checkbox]{
+    width: 1.1rem;
+    height: 1.1rem;
+    border: 0.1rem solid #aaa;
+    background: #f5f5f5;
+}
+.col label{
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+}
+.price-container input{
+    max-width: 5rem;
+}
+
+
