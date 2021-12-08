@@ -26,16 +26,12 @@ $(document).ready(function () {
     })
 
     // This method listens to sliding and afterwards sets corresponding category to active
-    $('.controls-theme .controls-dot').on('click', function(){
+    $('.controls-theme .controls-dot').on('click', function(e) {
+        jQuery('.product-carousel').trigger('to.owl.carousel', [$(this).index(), 300]);
         $('.controls-theme .controls-dot').removeClass('active');
         $(this).addClass('active');
     });
-
-    $('.controls-theme .controls-dot').on('click', function(e) {
-        jQuery('.product-carousel').trigger('to.owl.carousel', [$(this).index(), 300]);
-    });
     
-
 
     $(".product-images").on("click", function(){
         let src = $(this).attr('src');
