@@ -39,6 +39,9 @@
 	<!-- navbar style -->
 	<link rel="stylesheet" href="./assets/css/navbar.css">
 
+	<!-- wishlist page style -->
+	<link rel="stylesheet" href="./assets/css/wishlist.css">
+
 	<!-- navbar style -->
 	<link rel="stylesheet" href="./assets/css/meanmenu.min.css">
 
@@ -52,61 +55,9 @@
 	<link rel="stylesheet" href="./assets/css/waves.css">
 
 
-	<!-- Custom Style To Move on Spreadsheet -->
-	<style>
-		/* Update Our Products Card Image Size */
-		.product-image a img {
-			width: 250px;
-			height: 250px;
-		}
-
-		/* Update The Sale % on the circle in the first adv banner */
-		.inner-price {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		/* Responsive fonts of Card Btns */
-		a.cart-btn {
-			font-size: 1vw;
-		}
-
-		/* Reorder Btn on Second Adv Banner */
-		#monthlyDealBtn{
-			text-align: center;
-    		min-width: 155px;
-		}
-
-		/* Show/Hide Elements on Mobile - Product Section */
-		#productBtnContainer{
-			display: flex;
-			justify-content: center;
-			display: none;
-		}
-
-		@media (max-width: 991.98px) { 
-
-			#productBtnContainer{
-				display: flex;
-			}
-			#product-row{
-				display: none;
-			}
-
-			
-		/* Responsive fonts for Main Buttons Of the page */
-			a.mainButtons{
-				font-size: 2.3vw;
-			}
-		}
-
-
-
-	</style>
 </head>
 
-<body class="bg-secondary">
+<body>
 
 	<!--PreLoader-->
 	<div class="loader">
@@ -175,12 +126,174 @@
 	</div>
 	<!-- end search area -->
 
+	
+
+	<!-- BreadCrum Section -->
+	<div class="breadcrumb-section breadcrumb-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+				<div class="breadcrumb-text">
+					<p>Pietra Di Luna</p>
+					<h1>Wishlist <span>(3)</span></h1>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end BreadCrum Section -->
 
 
-<!-- CODE IN HERE -->
-	<section style="height: 100vh;">
+	<!-- Wishlist info section -->
+	<div class="container-fluid info-section mt-80">
+		<div class="row justify-content-center">
+			<h5 class="col-4 text-center">Sogni il regalo perfetto? Fai sapere alle persone che ami cosa desideri. 
+						Crea il tuo Account, aggiungi le tue creazioni preferite 
+						alla Wishlist e condividila con chi vuoi. Se non effettui 
+						il login, la Wishlist sarà cancellata al termine della sessione.</h5>
+		</div>
+		
+		<div class="row justify-content-center mt-4">
+			<button type="button" class="login-button col-2 w-100 waves-effect waves-light">Log in or Register</button>
+		</div>
 
-	</section>
+	</div> <!-- end Wishlist info section -->
+
+	<!-- Wishlist -->
+	<div class="container-fluid mb-150">
+		<div class="row justify-content-center mt-5">
+			<div class="col-7">
+				<hr>
+			</div>
+			<div class="col-8">
+				<div class="row justify-content-center">
+					<div class="col-4 wishlist-product-img">
+						<img src="assets/img/HomePage/alissa-de-leva-DeM8mEQf138-unsplash.jpg" alt="" height="200" width="200">
+					</div>
+					<div class="col-4 mt-3">
+						<h5>Product Name...</h5><br>
+						<div class="row justify-content-between">
+							<div class="col-5">
+								<p class="text-secondary">Missura</p>
+							</div>
+							<div class="col-5">
+								<p class="text-secondary">20</p>
+							</div>
+							<div class="col-5 mt-4">
+								<p class="text-secondary">Codice Prodoto</p>
+							</div>
+							<div class="col-5 mt-4">
+								<p class="text-secondary">20</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-4 mt-3">
+						<div class="row justify-content-between">
+							<div class="col-5 align-self-center">
+								<h4>$ 2444</h4>
+							</div>
+							<div class="col-3">
+								<button class="login-button waves-effect waves-light  w-100" style="border-radius: 30px;"><i class="far fa-trash-alt"></i></button>
+							</div>
+							<div class="col-12 mt-80">
+								<button type="button" class="login-button w-100 waves-effect waves-light">Visit product <i class="fab fa-facebook-square"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row justify-content-center mt-4">
+			<div class="col-7">
+				<hr>
+			</div>
+			<div class="col-8">
+				<div class="row justify-content-center">
+					<div class="col-4 wishlist-product-img">
+						<img src="assets/img/HomePage/alissa-de-leva-DeM8mEQf138-unsplash.jpg" alt="" height="200" width="200">
+					</div>
+					<div class="col-4 mt-3">
+						<h5>Product Name...</h5><br>
+						<div class="row justify-content-between">
+							<div class="col-5">
+								<p class="text-secondary">Missura</p>
+							</div>
+							<div class="col-5">
+								<p class="text-secondary">20</p>
+							</div>
+							<div class="col-5 mt-4">
+								<p class="text-secondary">Codice Prodoto</p>
+							</div>
+							<div class="col-5 mt-4">
+								<p class="text-secondary">20</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-4 mt-3">
+						<div class="row justify-content-between">
+							<div class="col-5 align-self-center">
+								<h4>$ 2444</h4>
+							</div>
+							<div class="col-3">
+								<button class="login-button waves-effect waves-light  w-100" style="border-radius: 30px;"><i class="far fa-trash-alt"></i></button>
+							</div>
+							<div class="col-12 mt-80">
+								<button type="button" class="login-button w-100 waves-effect waves-light">Visit product <i class="fab fa-facebook-square"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row justify-content-center mt-4">
+			<div class="col-7">
+				<hr>
+			</div>
+			<div class="col-8">
+				<div class="row justify-content-center">
+					<div class="col-4 wishlist-product-img">
+						<img src="assets/img/HomePage/alissa-de-leva-DeM8mEQf138-unsplash.jpg" alt="" height="200" width="200">
+					</div>
+					<div class="col-4 mt-3">
+						<h5>Product Name...</h5><br>
+						<div class="row justify-content-between">
+							<div class="col-5">
+								<p class="text-secondary">Missura</p>
+							</div>
+							<div class="col-5">
+								<p class="text-secondary">20</p>
+							</div>
+							<div class="col-5 mt-4">
+								<p class="text-secondary">Codice Prodoto</p>
+							</div>
+							<div class="col-5 mt-4">
+								<p class="text-secondary">20</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-4 mt-3">
+						<div class="row justify-content-between">
+							<div class="col-5 align-self-center">
+								<h4>$ 2444</h4>
+							</div>
+							<div class="col-3">
+								<button class="login-button waves-effect waves-light  w-100" style="border-radius: 30px;"><i class="far fa-trash-alt"></i></button>
+							</div>
+							<div class="col-12 mt-80">
+								<button type="button" class="login-button w-100 waves-effect waves-light">Visit product <i class="fab fa-facebook-square"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- end Wishlist -->
 
 	<!-- footer -->
 	<div class="footer-area">
@@ -265,6 +378,8 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+	<!-- wishlist js -->
+	<script src="assets/js/wishlist.js"></script>
 	<!-- waves js -->
 	<script src="assets/js/waves.js"></script>
 
