@@ -24,6 +24,12 @@ $(document).ready(function () {
             }
         }
     })
+    
+    // Alert close
+    $('.close').click(function (e) { 
+        e.preventDefault();
+        $('.wishlist-alert').addClass('d-none');
+    });
 
     // This method listens to sliding and afterwards sets corresponding category to active
     $('.controls-theme .controls-dot').on('click', function(e) {
