@@ -61,6 +61,7 @@
     cursor: pointer;
     height: 50px;
     transition: 0.1s;
+    line-height: 10px;
   }
   .login-button:hover {
     outline: none;
@@ -71,6 +72,31 @@
   }
   
   .wishlist-product-img {
-      min-height: 200px;
-      max-width: 200px;
+     min-width: 150px;
+     min-height: 150px;
+  }
+  .remove-button {
+    border: 2px solid #bb9f76;
+    background-color: white;
+    color: #bb9f76;
+    padding: 14px 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 30px;
+    transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s; /* Firefox 4 */
+    -webkit-transition: background-color 0.5s; /* Safari and Chrome */
+    -o-transition: background-color 0.5s; /* Opera */
+    -ms-transition: background-color 0.5s; /* Explorer 10 */
+    line-height: 10px;
+  }
+  .remove-button:hover {
+    outline: none;
+    background-color: #bb9f76;
+    color: white;
+  }
+  .remove-button:focus {
+    outline: none;
   }
