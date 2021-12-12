@@ -46,7 +46,7 @@ section{
 
     margin-bottom: 0.5rem;
 }
-#main-section .row{
+#main-section .filter-container .row{
     flex-flow:column;
     width: 21.75em;
     margin-bottom: 1rem;
@@ -86,3 +86,21 @@ section{
 }
 
 
+
+.active-cyan-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+  }
+#searchFilter-container{
+    margin-bottom: 1.6rem;
+    padding: 0.375rem 0.75rem;
+  }
+
+  /* Overwrite cards style */
+#main-section .productCards-container .product-image img {
+    width: 235px;
+    height: 235px;
+}
+#main-section .productCards-container p.product-price {
+    font-size: 25px;
+}

@@ -22,6 +22,10 @@ function negateNegativePrice(el){
        
 }
 
+
+
+
+
 // document.getElementById("minPrice").addEventListener('focusout',function(){
 //     const max = document.getElementById("maxPrice").value
 //     const min = document.getElementById("minPrice").value
