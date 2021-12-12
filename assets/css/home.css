@@ -703,11 +703,15 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    position: relative;
+    /* border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    position: relative; 
     z-index: 1;
     overflow: hidden;
+  }
+  .abt-bg video{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
   
   .abt-bg:after {
