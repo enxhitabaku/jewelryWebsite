@@ -144,7 +144,7 @@
 					</div>
 				 	<div id="form_status"></div>
 					<div class="contact-form">
-						<form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );">
+						<form type="POST" id="contactForm">
 							<p>
 								<input type="text" placeholder="Name" name="name" id="name">
 								<input type="email" placeholder="Email" name="email" id="email">
@@ -154,8 +154,11 @@
 								<input type="text" placeholder="Subject" name="subject" id="subject">
 							</p>
 							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
-							<input type="hidden" name="token" value="FsWga4&@f6aw" />
-							<p id="contactBtn-container"><input type="submit" value="Submit"></p>
+							<div class="row justify-content-between">
+								<div id="contactBtn-container" class="col-lg-3 col-12"><button id="contactSubmit" type="submit" class="w-100">Submit</button></div>
+								<span id="submitResponse" class="col-lg-6 col-12 align-self-center text-lg-right text-center mt-lg-0 mt-3"></span>	
+							</div>
+							
 						</form>
 					</div>
 				</div>
@@ -274,6 +277,8 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+	<!-- contact js -->
+	<script src="assets/js/contact.js"></script>
 
 </body>
 
