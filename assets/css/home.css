@@ -698,8 +698,8 @@
   }
   
   .abt-bg {
-    background-image: url(../img/abt.jpg);
-    height: 100%;
+    /* background-image: url(../img/abt.jpg); */
+    /* height: 100%; */
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -715,15 +715,16 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     content: "";
     background-color: #051922;
     opacity: 0.3;
   }
   
   .abt-section .abt-text {
-    padding: 50px;
-    padding-left: 30px;
+    /* padding: 50px;
+    padding-left: 30px; */
+    padding: 0 10px;
   }
   
   .abt-text p {
@@ -740,7 +741,34 @@
   .abt-text p:last-child {
     margin-bottom: 0;
   }
-  
+
+  /*Custom Media Query for Mobile  */
+
+  /* Hide Video on About us section of the home page*/
+  @media only screen and (max-width: 450px){
+    .abt-bg{
+      display: none;
+    }
+    .abt-section .abt-text{
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      text-align: center;
+    }
+    .cart-banner .content-column {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      text-align: center;
+    }
+  } 
+  /* Hide Second Counter on small Screen */
+  @media only screen and (max-width: 355px){
+    .counter-column:nth-child(4){
+      display: none;
+    }
+
+  }
   /* -----------------------------------------------------------------------------
   
   # Shop Banner Styles
