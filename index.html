@@ -199,7 +199,7 @@
 	</div><br>
 
 	<!-- work with us form -->
-	<div class="contact-from-section mt-150 mb-150">
+	<div class="work-with-from-section mt-150 mb-150">
 		<div class="container-fluid">
 			<div class="row justify-content-center">
 				<div class="col-lg-4 mb-5 mb-lg-0">
@@ -207,20 +207,21 @@
 						<p>Compila il form che trovi qui sotto con i dati richiesti e descrivici le tue competenze.
 							Ti risponderemo il più presto possibile.</p>
 					</div>
-				 	<div id="form_status"></div>
-					<div class="contact-form">
-						<form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );">
+					<div class="work-with-form">
+						<form type="POST" id="workWithForm">
 							<p>
 								<input type="text" placeholder="Name" name="name" id="name">
 								<input type="email" placeholder="Email" name="email" id="email">
 							</p>
 							<p>
-								<input type="tel" placeholder="Phone" name="phone" id="phone">
+								<input type="tel" placeholder="Phone" name="phone" id="phone_number">
 								<input type="text" placeholder="Subject" name="subject" id="subject">
 							</p>
 							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Experience"></textarea></p>
-							<input type="hidden" name="token" value="FsWga4&@f6aw" />
-							<p id="contactBtn-container text-center"><input type="submit" value="Submit"></p>
+							<div class="row justify-content-between">
+								<div id="contactBtn-container" class="col-lg-3 col-12"><button id="workWithSubmit" type="submit" class="w-100">Submit</button></div>
+								<span id="submitResponse" class="col-lg-6 col-12 align-self-center text-lg-right text-center mt-lg-0 mt-3"></span>	
+							</div>
 						</form>
 					</div>
 				</div>
@@ -317,6 +318,8 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+	<!-- work with page js -->
+	<script src="assets/js/workwith.js"></script>
 	<!-- waves js -->
 	<script src="assets/js/waves.js"></script>
 
