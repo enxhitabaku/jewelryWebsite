@@ -494,4 +494,6 @@
   a.mobile-show.search-bar-icon:hover {
     color: #B1A296;
   }
-  
+  #footerResponse {
+    margin-left: 0px!important;
+  }
