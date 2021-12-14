@@ -5,9 +5,19 @@ $(document).ready(function () {
         $('.wishlist-alert').addClass('d-none');
     });
 
-    $('.remove-button').click(function (e) { 
+    $('.remove-button').one('click', function (e) { 
         e.preventDefault();
         let product_id = this.id.substring(6, 9)
+        let wishlist_nr = parseInt($('#wishlistNumber').text().substring(1,2));
+
+        // Re set wishlist number of products
+        wishlist_nr--;
+        if (wishlist_nr === 0) {
+            $('#wishlistNumber').text('');
+            $('#emptyWishlist').removeClass('d-none');
+        } else {
+            $('#wishlistNumber').text('('+wishlist_nr+')');
+        }
 
         // Fade product out
         $('#row' + product_id).fadeOut();
