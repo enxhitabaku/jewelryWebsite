@@ -1,0 +1,119 @@
+.breadcrumb-bg {
+    background-image: url(../img/HomePage/alissa-de-leva-DeM8mEQf138-unsplash.jpg);
+  }
+  
+  .breadcrumb-text p {
+    color: #7395AE;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+  }
+  
+  .breadcrumb-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .breadcrumb-text span {
+     color: #7395AE;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 22px;
+  }
+  
+  .breadcrumb-section {
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    padding-top: 200px;
+  }
+  
+  .breadcrumb-section:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #07212e;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  
+  .info-section h5 {
+      font-weight: lighter;
+      line-height: 30px;
+  }
+  .login-button {
+    border: none;
+    background-color: #012738;
+    color: white;
+    padding: 14px 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+    height: 50px;
+    transition: 0.1s;
+    line-height: 10px;
+  }
+  .login-button:hover {
+    outline: none;
+    background-color: #054664;
+  }
+  .login-button:focus {
+    outline: none;
+  }
+  
+  .wishlist-product-img {
+     min-width: 150px;
+     min-height: 150px;
+  }
+  .remove-button {
+    border: 2px solid #bb9f76;
+    background-color: white;
+    color: #bb9f76;
+    padding: 14px 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 30px;
+    transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s; /* Firefox 4 */
+    -webkit-transition: background-color 0.5s; /* Safari and Chrome */
+    -o-transition: background-color 0.5s; /* Opera */
+    -ms-transition: background-color 0.5s; /* Explorer 10 */
+    line-height: 10px;
+  }
+  .remove-button:hover {
+    outline: none;
+    background-color: #bb9f76;
+    color: white;
+  }
+  .remove-button:focus {
+    outline: none;
+  }
+
+  .wishlist-alert .alert{
+    background-color: #012738;
+    border: none;
+  }
+  .wishlist-alert .alert h6{
+    color: #7395AE;
+    letter-spacing: 1px;
+  }
+  .wishlist-alert .alert button{
+    background-color: #012738;
+    color: #7395AE;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-right: 4px;
+  }

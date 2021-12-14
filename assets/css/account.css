@@ -1,0 +1,270 @@
+
+.breadcrumb-bg {
+    background-image: url(../img/AccountFeature/login.jpg);
+    background-position: center bottom;
+  }
+  
+  .breadcrumb-text p {
+    color: #7395AE;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+  }
+  
+  .breadcrumb-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .breadcrumb-section {
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    padding-top: 200px;
+  }
+  
+  .breadcrumb-section:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #07212e;
+    z-index: -1;
+    opacity: 0.8;
+  }
+
+
+  
+.nav-tabs {
+	border: none;
+}
+.info-tab .nav-item .nav-link {
+	border: none;
+	color: rgb(112, 112, 112);
+	font-weight: 600;
+    font-size: 20px;
+}
+.info-tab .nav-item {
+	position: relative;
+}
+.info-tab .nav-item:after {
+	content: "";
+    background: #07212e;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 0px;
+    transition: 0.5s;
+}
+.info-tab .nav-item:hover:after {
+    left: 0%;
+    width: 100%;
+}
+.info-tab .nav-item.active {
+	background-color: whitesmoke;
+}
+.info-tab .nav-item .active {
+    color: black;
+	background-color: whitesmoke;
+}
+.tab-content p{
+	color: rgb(112, 112, 112);
+	font-weight: 300;
+}
+.tab-content h6{
+	color: rgb(112, 112, 112);
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.login-form input {
+    height: 50px;
+}
+  
+.submit-btn {
+    border: none;
+    background-color: #012738;
+    color: whitesmoke;
+    padding: 14px 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+}
+.submit-btn:hover {
+    background-color: #255770;
+}
+.submit-btn:focus {
+    outline: none;
+}
+
+/* CHECKBOX STYLE */
+.checkbox-wrap {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: lighter;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkbox-wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "\f0c8";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+    margin-top: 0px;
+    transition: 0.3s;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkbox-wrap  input:checked ~ .checkmark:after {
+    display: block;
+    content: "\f14a";
+    font-family: "Font Awesome 5 Free";
+    color: #012738;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkbox-primary {
+    color:rgb(0, 0, 0);
+    font-size: 1.2em;
+  }
+  .checkbox-primary input:checked ~ .checkmark:after {
+    color: #012738;
+  }
+
+  .form-control {
+    box-shadow: none;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 50px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    outline: none!important;
+  }
+ 
+  .forgot-password a{
+    color: #012738;
+    text-decoration: underline;
+  }
+
+  .eye{
+    position: absolute;
+    top: 10%;
+    left: 84%;
+    font-size: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    padding-left: 12px;
+    color: #012738;
+}
+.eye:hover:active{
+    background-color: rgba(211, 211, 211, 0.918);
+}
+@media screen and (min-width: 481px) {
+    .eye:hover{
+        background-color: rgba(211, 211, 211, 0.418);
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .eye {
+        left: 86%;
+    }
+}
+
+.field-wrapper{
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.field-wrapper input{
+  border: 1px solid #DADCE0;
+  padding: 15px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.field-wrapper input:focus{
+  border:1px solid #012738;
+  box-shadow: 0px 0px 4px #012738!important;
+}
+
+.field-wrapper .field-placeholder{
+  font-size: 16px;
+  position: absolute;
+  /* background: #fff; */
+  bottom: 11px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #80868b;
+  left: 42px;
+  padding: 0 8px;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,0.2,1),opacity 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: transform 150ms cubic-bezier(0.4,0,0.2,1),opacity 150ms cubic-bezier(0.4,0,0.2,1);
+  z-index: 1;
+
+  text-align: left;
+  width: 100%;
+}
+.field-wrapper .field-placeholder2{
+  bottom: 10px;
+}
+.field-wrapper .field-placeholder3{
+  bottom: 35px;
+}         
+
+.field-wrapper .field-placeholder span{
+  background: #ffffff;
+  padding: 0px 8px;
+}
+
+.field-wrapper input:not([disabled]):focus~.field-placeholder
+{
+  color:#012738;
+}
+.field-wrapper input:not([disabled]):focus~.field-placeholder,
+.field-wrapper.hasValue input:not([disabled])~.field-placeholder
+{
+  -webkit-transform: scale(.75) translateY(-32px) translateX(-50px);
+  transform: scale(.75) translateY(-32px) translateX(-50px);
+
+}
