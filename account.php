@@ -1,3 +1,6 @@
+<?php 
+$current_page = 'account';
+?>
 <!DOCTYPE html>
 <html lang="en">
 

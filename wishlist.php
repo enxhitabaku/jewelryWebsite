@@ -1,3 +1,6 @@
+<?php 
+$current_page = 'wishlist';
+?>
 <!DOCTYPE html>
 <html lang="en">
 

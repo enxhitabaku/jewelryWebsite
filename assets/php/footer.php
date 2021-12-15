@@ -9,7 +9,7 @@
 							<p class="text-center text-md-left col-12">Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium
 							doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
 							<form action="" class="col-12">
-								<button type="submit" class="w-100 waves-effect waves-dark"><i class="fas fa-circle-info"></i> Read more</button>
+								<button type="button" id="redirectFooter" class="w-100 waves-effect waves-dark" onclick="redirectfooter()"><i class="fas fa-circle-info"></i> Read more</button>
 							</form>
 						</div>
 						

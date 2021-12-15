@@ -24,4 +24,9 @@ $(document).ready(function () {
             $('#footerResponse').html('<i class="fas fa-check-circle"></i> Thank you for registering');
         }
     });
-});
+
+});  
+
+function redirectfooter() {
+    window.location = './about.php';
+}

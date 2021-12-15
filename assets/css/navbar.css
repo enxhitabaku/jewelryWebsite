@@ -172,6 +172,9 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
   nav.main-menu ul li.current-list-item > a {
     color: #B1A296;
   }
+  nav.main-menu ul li div .current-list-item {
+    color: #B1A296;
+  }
   
   nav.main-menu li:hover > a {
     color: #B1A296;

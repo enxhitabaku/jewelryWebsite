@@ -1,3 +1,6 @@
+<?php 
+$current_page = 'list';
+?>
 <!DOCTYPE html>
 <html lang="en">
 

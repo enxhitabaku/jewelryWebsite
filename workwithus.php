@@ -1,3 +1,6 @@
+<?php 
+$current_page = 'workwithus';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
