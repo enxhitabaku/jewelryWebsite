@@ -21,7 +21,7 @@ $current_page = 'wishlist';
 		rel="stylesheet">
 
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="assets/img/HomePage/website-icon.png">
 
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">

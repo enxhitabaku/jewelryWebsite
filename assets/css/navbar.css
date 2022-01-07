@@ -233,7 +233,8 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
   span.close-btn {
     position: absolute;
     right: 0%;
-    color: #fff;
+    color: white;
+    background-color: rgba(245, 245, 245, 0.062);
     top: 5%;
     cursor: pointer;
   }

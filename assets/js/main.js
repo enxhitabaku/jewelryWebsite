@@ -47,7 +47,8 @@
                 1000:{
                     items:1,
                     nav:true,
-                    loop:true
+                    loop:true,
+                    mouseDrag:false
                 }
             }
         });

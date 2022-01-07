@@ -21,7 +21,7 @@ $current_page = 'workwithus';
 		rel="stylesheet">
 
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="assets/img/HomePage/website-icon.png">
 
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
@@ -70,8 +70,8 @@ $current_page = 'workwithus';
 	<div class="latest-news mt-100">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 mb-100">
-					<h3 class="text-center">Current Free Job <span class="orange-text">posts.</span></h3>
+				<div class="col-12 mb-100 mt-100">
+					<h3 class="text-center">Posti di Lavori <span class="orange-text">liberi.</span></h3>
 				</div>
 				
 				<div class="col-lg-4 col-md-6">
@@ -118,7 +118,7 @@ $current_page = 'workwithus';
 	<div class="container mb-80 mt-80 animated div1">
 		<div class="row">
 			<div class="col-12 text-center">
-				<h2 class="">Become part of a team that makes their work a <span class="orange-text">passion!</span></h2>
+				<h2 class="">Entra a far parte di un team che fa del suo lavoro una <span class="orange-text">passione!</span></h2>
 			</div>
 		</div>
 	</div><br>
@@ -135,16 +135,16 @@ $current_page = 'workwithus';
 					<div class="work-with-form">
 						<form type="POST" id="workWithForm">
 							<p>
-								<input type="text" placeholder="Name" name="name" id="name">
+								<input type="text" placeholder="Nome" name="name" id="name">
 								<input type="email" placeholder="Email" name="email" id="email">
 							</p>
 							<p>
-								<input type="tel" placeholder="Phone" name="phone" id="phone_number">
-								<input type="text" placeholder="Subject" name="subject" id="subject">
+								<input type="tel" placeholder="Telefono" name="phone" id="phone_number">
+								<input type="text" placeholder="Oggetto" name="subject" id="subject">
 							</p>
-							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Experience"></textarea></p>
+							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Esperienze"></textarea></p>
 							<div class="row justify-content-between">
-								<div id="contactBtn-container" class="col-lg-3 col-12"><button id="workWithSubmit" type="submit" class="w-100">Submit</button></div>
+								<div id="contactBtn-container" class="col-lg-3 col-12"><button id="workWithSubmit" type="submit" class="w-100">Invia</button></div>
 								<span id="submitResponse" class="h6 col-lg-6 col-12 align-self-center text-lg-right text-center mt-lg-0 mt-3"></span>	
 							</div>
 						</form>

@@ -13,14 +13,15 @@ $current_page = 'about';
 	<title>About</title>
 
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="assets/img/HomePage/website-icon.png">
 
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 
-	<!-- fontawesome -->
-	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!-- Custom Font Awesome Icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" media="all"
+		rel="stylesheet">
 
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -36,6 +37,9 @@ $current_page = 'about';
 	
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
+
+	<!-- waves -->
+	<link rel="stylesheet" href="assets/css/waves.css">
 	
 	<!-- main style -->
 	<link rel="stylesheet" href="assets/css/main.css">
@@ -66,7 +70,7 @@ $current_page = 'about';
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
 						<p>Pietra di Luna</p>
-						<h1>About Us</h1>
+						<h1>Chi Siamo</h1>
 					</div>
 				</div>
 			</div>
@@ -77,7 +81,6 @@ $current_page = 'about';
 	<!-- who are we section-->
 
 	<div class="container-fluid mt-150 mb-150">
-		<h2 class="pb-3 text-center">About <span class="orange-text">Us</span></h2> <br>
 		<div class="row justify-content-center mt-50 mb-150">
 			<div class="col-lg-4 align-self-center g-3">
 				<h3 class="orange-text text-center text-md-left">Come nasce Pietra di Luna</h3>
@@ -90,17 +93,16 @@ $current_page = 'about';
 					che hanno prodotto in passato pezzi talmente belli e unicamente perfetti tali da rimanere indelebili nella storia.</p>
 			</div>
 			<div class="col-lg-4 mt-5 mt-md-0">
-				<img src="assets/img/AboutUsPage/pic4.jpg" alt="" class="w-100 img-fluid rounded animated img1">
+				<img src="assets/img/HomePage/product2.jpg" alt="" class="w-100 img-fluid rounded animated img1">
 			</div>
 		</div>
 		<div class="row justify-content-center pt-80 pb-100 mb-200">
-
 			<div class="col-lg-4">
-				<img src="assets/img/AboutUsPage/pic6.jpg" alt="" class="w-100 img-fluid rounded animated img2">
+				<img src="assets/img/HomePage/product3.jpg" alt="" class="w-100 img-fluid rounded animated img2">
 			</div>
 			<div class="col-lg-4 align-self-center">
-				<h3 class="orange-text text-center text-md-left mt-5 mt-md-0">Come nascono i nostri gioielli</h3>
-				<p>I gioielli Pietra di Luna sono un sogno ad occhi aperti. Particolare è la scelta accurata delle pietre semi preziose e 
+				<h3 class="orange-text text-center text-md-left mt-5 mt-md-0 ml-5">Come nascono i nostri gioielli</h3>
+				<p class="ml-5">I gioielli Pietra di Luna sono un sogno ad occhi aperti. Particolare è la scelta accurata delle pietre semi preziose e 
 					preziose utilizzate. Gli ori e gli argenti utilizzati per il design sono selezionati ad arte. 
 					Persino la seta, le maglie, la minuteria sono di ottima fattura e controllati in ogni singolo dettaglio. 
 					Nulla all’interno dei nostri laboratori è lasciato al caso.
@@ -119,11 +121,11 @@ $current_page = 'about';
 
 	<!-- featured section -->
 	<div class="feature-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 mb-5 mb-md-0">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-lg-5 mb-5 mb-md-0">
 					<div class="featured-text">
-						<h2 class="pb-3 text-center text-lg-left mb-5">Why <span class="orange-text">Pietra di Luna</span></h2>
+						<h2 class="pb-3 text-center text-lg-left mb-5">Perche <span class="orange-text">Pietra di Luna ?</span></h2>
 						<div class="row">
 							<div class="col-lg-6 col-md-6 mb-4 mb-md-5">
 								<div class="list-box d-flex">
@@ -172,8 +174,8 @@ $current_page = 'about';
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-5 mt-5 mt-md-0">
-					<img class="img-fluid rounded w-100" style="max-height: 400px;" src="assets/img/AboutUsPage/cover1.jpg" alt="">
+				<div class="col-lg-4 mt-5 mt-md-0 why-us">
+					<img class="img-fluid rounded w-100" style="" src="assets/img/HomePage/cover2.jpg" alt="">
 				</div>
 			</div>
 		</div>
@@ -203,6 +205,9 @@ $current_page = 'about';
 
 	<!-- mean menu -->
 	<script src="assets/js/jquery.meanmenu.min.js"></script>
+
+	<!-- waves js -->
+	<script src="assets/js/waves.js"></script>
 
 	<!-- sticker js -->
 	<script src="assets/js/sticker.js"></script>

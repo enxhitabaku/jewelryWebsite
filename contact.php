@@ -21,8 +21,8 @@ $current_page = 'contact';
 		rel="stylesheet">
 
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
-
+	<link rel="icon" type="image/png" href="assets/img/HomePage/website-icon.png">
+	
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
@@ -64,8 +64,8 @@ $current_page = 'contact';
 		  <div class="row">
 			<div class="col-lg-8 offset-lg-2 text-center">
 			  <div class="breadcrumb-text">
-				<p>Get 24/7 Support</p>
-				<h1>Contact us</h1>
+				<p>Supporto 24 su 24</p>
+				<h1>Contattaci</h1>
 			  </div>
 			</div>
 		  </div>
@@ -77,23 +77,23 @@ $current_page = 'contact';
 			<div class="row">
 				<div class="col-lg-8 mb-5 mb-lg-0">
 					<div class="form-title">
-						<h3 class="text-center text-md-left">Have you any <span class="orange-text">question</span>?</h3>
+						<h3 class="text-center text-md-left">Hai qualche <span class="orange-text">domanda</span>?</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione! Laboriosam est, assumenda. Perferendis, quo alias quaerat aliquid. Corporis ipsum minus voluptate? Dolore, esse natus!</p>
 					</div>
 				 	<div id="form_status"></div>
 					<div class="contact-form">
 						<form type="POST" id="contactForm">
 							<p>
-								<input type="text" placeholder="Name" name="name" id="name">
+								<input type="text" placeholder="Nome" name="name" id="name">
 								<input type="email" placeholder="Email" name="email" id="email">
 							</p>
 							<p>
-								<input type="tel" placeholder="Phone" name="phone" id="phone">
-								<input type="text" placeholder="Subject" name="subject" id="subject">
+								<input type="tel" placeholder="Telefono" name="phone" id="phone">
+								<input type="text" placeholder="Oggetto" name="subject" id="subject">
 							</p>
-							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
+							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Messagio"></textarea></p>
 							<div class="row justify-content-between">
-								<div id="contactBtn-container" class="col-lg-2 col-12"><button id="contactSubmit" type="submit" class="w-100">Submit</button></div>
+								<div id="contactBtn-container" class="col-lg-2 col-12"><button id="contactSubmit" type="submit" class="w-100">Invia</button></div>
 								<span id="submitResponse" class="col-lg-6 col-12 h6 align-self-center text-lg-right text-center mt-lg-0 mt-3"></span>	
 							</div>
 							
@@ -103,16 +103,16 @@ $current_page = 'contact';
 				<div class="col-lg-4 text-center text-md-left">
 					<div class="contact-form-wrap">
 						<div class="contact-form-box">
-							<h4><i class="fas fa-map mr-3"></i> Shop Address</h4>
+							<h4><i class="fas fa-map mr-3"></i> Addressa di Negozio</h4>
 							<p>34/8, East Hukupara <br> Gifirtok, Sadan. <br> Country Name</p>
 						</div>
 						<div class="contact-form-box">
-							<h4><i class="far fa-clock mr-3"></i> Shop Hours</h4>
-							<p>MON - FRIDAY: 8 to 9 PM <br> SAT - SUN: 10 to 8 PM </p>
+							<h4><i class="far fa-clock mr-3"></i> Quando siamo apperto?</h4>
+							<p>LUN - Venerdi: 8 to 9 PM <br> SAB - Domenica: 10 to 8 PM </p>
 						</div>
 						<div class="contact-form-box">
-							<h4><i class="fas fa-address-book mr-3"></i> Contact</h4>
-							<p>Phone: +00 111 222 3333 <br> Email: support@fruitkha.com</p>
+							<h4><i class="fas fa-address-book mr-3"></i> Contattaci</h4>
+							<p>Telefono: +00 111 222 3333 <br> Email: support@fruitkha.com</p>
 						</div>
 					</div>
 				</div>
@@ -126,7 +126,7 @@ $current_page = 'contact';
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<p> <i class="fas fa-map-marker-alt"></i> Find Our Location</p>
+					<p> <i class="fas fa-map-marker-alt"></i> Trova il nostro Negozio</p>
 				</div>
 			</div>
 		</div>

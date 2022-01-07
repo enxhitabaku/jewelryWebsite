@@ -21,7 +21,7 @@ $current_page = 'product';
 		rel="stylesheet">
 
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="assets/img/HomePage/website-icon.png">
 
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
@@ -51,6 +51,7 @@ $current_page = 'product';
 
 	<!-- single product style -->
 	<link rel="stylesheet" href="./assets/css/singleproduct.css">
+	<link rel="stylesheet" href="./assets/css/shop.css">
 
 	<!-- footer style -->
 	<link rel="stylesheet" href="./assets/css/footer.css">
@@ -63,49 +64,6 @@ $current_page = 'product';
 			width: 250px;
 			height: 250px;
 		}
-
-		/* Update The Sale % on the circle in the first adv banner */
-		.inner-price {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		/* Responsive fonts of Card Btns */
-		a.cart-btn {
-			font-size: 1vw;
-		}
-
-		/* Reorder Btn on Second Adv Banner */
-		#monthlyDealBtn{
-			text-align: center;
-    		min-width: 155px;
-		}
-
-		/* Show/Hide Elements on Mobile - Product Section */
-		#productBtnContainer{
-			display: flex;
-			justify-content: center;
-			display: none;
-		}
-
-		@media (max-width: 991.98px) { 
-
-			#productBtnContainer{
-				display: flex;
-			}
-			#product-row{
-				display: none;
-			}
-
-			
-		/* Responsive fonts for Main Buttons Of the page */
-			a.mainButtons{
-				font-size: 2.3vw;
-			}
-		}
-
-
 
 	</style>
 </head>
@@ -120,7 +78,7 @@ $current_page = 'product';
 
 <!-- CODE IN HERE -->
 	<section class="container-fluid product-page-div">
-			<div class="row mt-150 mb-150 pt-5 justify-content-center">
+			<div class="row mt-150 mb-5 pt-5 justify-content-center">
 				<!-- Product Carousel section -->
 				<div class="col-xl-5 col-lg-7 col-12">
 					<div class="row justify-content-center">
@@ -164,18 +122,18 @@ $current_page = 'product';
 							<hr style="color: #B1A296;border: none; height: 1px; max-width: 100%; background-color: #B1A296;">
 						</div>
 						<div class="action-buttons wishlist-button col-12">
-							<button type="button" class="w-100 waves-effect waves-light"> Add to wishlist <i class="far fa-heart"></i></button>
+							<button type="button" class="w-100 waves-effect waves-light"> Aggiunga ai Preferiti <i class="far fa-heart"></i></button>
 						</div>
 						<div class="action-buttons buy-button col-12 mt-3">
-							<button type="button" class="w-100 waves-effect waves-light"> Buy it Now <i class="fas fa-shopping-cart"></i></button>
+							<button type="button" class="w-100 waves-effect waves-light"> Compra Ora <i class="fas fa-shopping-cart"></i></button>
 						</div>
 						<div class="col-12 mt-5 info-tab">
 							<ul class="nav nav-tabs" id="infoTab" role="tablist">
 								<li class="nav-item waves-effect waves-dark">
-								  <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
+								  <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Descrizione</a>
 								</li>
 								<li class="nav-item waves-effect waves-dark">
-								  <a class="nav-link" id="details-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details" aria-selected="false">Details</a>
+								  <a class="nav-link" id="details-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details" aria-selected="false">Detagli</a>
 								</li>
 								<li class="nav-item waves-effect waves-dark">
 								  <a class="nav-link" id="shipping-tab" data-toggle="tab" href="#shipping" role="tab" aria-controls="shipping" aria-selected="false">Shipping</a>
@@ -226,7 +184,7 @@ $current_page = 'product';
 	<!-- alert -->
 	<div class="wishlist-alert row justify-content-end fixed-top mr-3 d-none">
 		<div class="alert alert-warning alert-dismissible fade show text-center col-lg-4 align-self-center" role="alert" style="top: 26px; height: 70px;">
-			<h6 class="mt-3"><i class="far fa-check-circle"></i> Product added to wishlist. 
+			<h6 class="mt-3"><i class="far fa-check-circle"></i> Il prodotto è stato aggiunto ai Preferiti. 
 				<button type="button" class="close alert-close waves-effect waves-light mt-3">&#10006;</button>
 			</h6>
 		</div>
@@ -247,12 +205,93 @@ $current_page = 'product';
 	
 
 	<!-- Similar Product Section -->
-	<div class="container mb-150 mt-150">
+	<div class="container mb-150">
 		<div class="row">
 			<div class="col-12 text-center">
-				<h3>You may also <span class="orange-text">like</span></h3>
+				<h3>Prodotti <span class="orange-text">simili</span></h3>
 			</div>
 		</div>
+		<br>
+		<div class="row mt-5" id="product-row">
+				<div class="col-sm-12 col-lg-4 col-md-4 text-center">
+					<div class="row single-product-item">
+						<div class="product-image col-12">
+							<a href="product.php"><img src="./assets/img/HomePage/product1.jpg" class="w-100"></a>
+						</div>
+						<div class="col-12">
+							<span class="h4">Azul</span>
+						</div>
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Materiale</span>
+						</div>
+						<div class="col-12 mt-0 mb-2 text-left ml-3">
+							<span class="h6 text-secondary" >Sarif</span>
+						</div>
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Descripcione</span>
+						</div>
+						<div class="col-12 mt-0 mb-4 text-left ml-3">
+							<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
+								r adipisicing elit. Nostrum, magna Nihil?</span>
+						</div>									
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<a href="cart.html" class="cart-btn w-75">Scopri</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-4 col-md-4 text-center">
+					<div class="row single-product-item">
+						<div class="product-image col-12">
+							<a href="product.php"><img src="./assets/img/HomePage/product2.jpg" class="w-100"></a>
+						</div>
+						<div class="col-12">
+							<span class="h4">Azul</span>
+						</div>
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Materiale</span>
+						</div>
+						<div class="col-12 mt-0 mb-2 text-left ml-3">
+							<span class="h6 text-secondary" >Sarif</span>
+						</div>
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Descripcione</span>
+						</div>
+						<div class="col-12 mt-0 mb-4 text-left ml-3">
+							<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
+								r adipisicing elit. Nostrum, magna Nihil?</span>
+						</div>									
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<a href="cart.html" class="cart-btn w-75">Scopri</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-4 col-md-4 text-center">
+					<div class="row single-product-item">
+						<div class="product-image col-12">
+							<a href="product.php"><img src="./assets/img/HomePage/product3.jpg" class="w-100"></a>
+						</div>
+						<div class="col-12">
+							<span class="h4">Azul</span>
+						</div>
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Materiale</span>
+						</div>
+						<div class="col-12 mt-0 mb-2 text-left ml-3">
+							<span class="h6 text-secondary" >Sarif</span>
+						</div>
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Descripcione</span>
+						</div>
+						<div class="col-12 mt-0 mb-4 text-left ml-3">
+							<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
+								r adipisicing elit. Nostrum, magna Nihil?</span>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<a href="cart.html" class="cart-btn w-75">Scopri</a>
+						</div>
+					</div>
+				</div>
+			</div>
 	</div>
 	<!-- end Similar Product Section -->
 

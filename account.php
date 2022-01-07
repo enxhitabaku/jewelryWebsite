@@ -21,7 +21,7 @@ $current_page = 'account';
 		rel="stylesheet">
 
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="assets/img/HomePage/website-icon.png">
 
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
@@ -124,7 +124,7 @@ $current_page = 'account';
 				<div class="col-lg-8 offset-lg-2 text-center">
 				<div class="breadcrumb-text">
 					<p>Pietra Di Luna</p>
-					<h1>Log-in Or Register</h1>
+					<h1>Acceda O Registratti</h1>
 				</div>
 				</div>
 			</div>
@@ -141,10 +141,10 @@ $current_page = 'account';
 				<div class="col-12 mt-5 info-tab text-center">
 					<ul class="nav nav-tabs row justify-content-center gutter-1 active" id="infoTab" role="tablist">
 						<li class="nav-item col-lg-2 col-6 mr-lg-3 mr-0 waves-effect waves-dark active">
-						  <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="description" aria-selected="false">Log-in</a>
+						  <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="description" aria-selected="false">Accedi</a>
 						</li>
 						<li class="nav-item col-lg-2 col-6 waves-effect waves-dark">
-						  <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="details" aria-selected="true">Register</a>
+						  <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="details" aria-selected="true">Registrati</a>
 						</li>
 					</ul>
 					<div class="tab-content ml-3" id="infoTab">
@@ -153,28 +153,28 @@ $current_page = 'account';
 								<div class="row justify-content-center">	
 									<div class="form-group field-wrapper col-lg-6 col-12 text-left mx-lg-2 px-lg-5 px-0 mb-4">
 										<input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-										<div class="field-placeholder"><span>Enter your email</span></div>
+										<div class="field-placeholder"><span>Entra il vostro email</span></div>
 									</div>
 									<div class="form-group field-wrapper col-lg-6 col-12 text-left mx-2 px-lg-5 px-0 mb-lg-2 mb-0">
 										<input type="password" class="form-control" id="password">
-										<div class="field-placeholder field-placeholder2"><span>Enter your password</span></div>
+										<div class="field-placeholder field-placeholder2"><span>Entra il vostro password</span></div>
 										<i class="fa fa-eye eye waves-effect"></i>
 									</div>
 									<div class="form-check col-lg-6 col-12 mx-3 px-lg-5 px-0 mt-3">
 										<div class="row justify-content-between">
 											<div class="col-6 text-left mt-1 mb-4">
-												<label class="checkbox-wrap checkbox-primary h6">Remeber me
+												<label class="checkbox-wrap checkbox-primary h6">Ricordami
 													<input id="remember" type="checkbox" name="remember">
 													<span class="checkmark"></span>
 												</label>
 											</div>
 											<div class="col-6 text-right mt-1 mb-4 forgot-password">
-												<h6><a href="">Forgot password?</a></h6>
+												<h6><a href="">Hai dimenticato password?</a></h6>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-6 col-12 mx-2 px-lg-5 px-0 mt-3">
-										<button id="loginButton" type="button" class="submit-btn waves-effect waves-light w-100" style="height: 50px;">Log in</button>
+										<button id="loginButton" type="button" class="submit-btn waves-effect waves-light w-100" style="height: 50px;">Accedi</button>
 									</div>
 									<div class="col-lg-6 col-12 mx-2 px-lg-5 px-0 mt-3">
 										<span id="loginResponse" class="text-danger h6"></span>
@@ -187,28 +187,28 @@ $current_page = 'account';
 								<div class="row justify-content-center">	
 									<div class="form-group field-wrapper col-lg-6 col-12 text-left mx-lg-2 px-lg-5 px-0 mb-4">
 										<input type="text" class="form-control" id="name" aria-describedby="emailHelp">
-										<div class="field-placeholder"><span>Enter your name</span></div>
+										<div class="field-placeholder"><span>Entra il vostro noe</span></div>
 									</div>
 									<div class="form-group field-wrapper col-lg-6 col-12 text-left mx-lg-2 px-lg-5 px-0 mb-4">
 										<input type="text" class="form-control" id="surname" aria-describedby="emailHelp">
-										<div class="field-placeholder"><span>Enter your surname</span></div>
+										<div class="field-placeholder"><span>Entra il vostro cognome</span></div>
 									</div>
 									<div class="form-group field-wrapper col-lg-6 col-12 text-left mx-lg-2 px-lg-5 px-0 mb-4">
 										<input type="text" class="form-control" id="state" aria-describedby="emailHelp">
-										<div class="field-placeholder"><span>Enter your state</span></div>
+										<div class="field-placeholder"><span>Entra il vostro paese</span></div>
 									</div>
 									<div class="form-group field-wrapper col-lg-6 col-12 text-left mx-lg-2 px-lg-5 px-0 mb-4">
 										<input type="email" class="form-control" id="registerEmail" aria-describedby="emailHelp">
-										<div class="field-placeholder"><span>Enter your email</span></div>
+										<div class="field-placeholder"><span>Entra il vostro email</span></div>
 									</div>
 									<div class="form-group field-wrapper col-lg-6 col-12 text-left mx-lg-2 px-lg-5 px-0 mb-4">
 										<input type="password" class="form-control" id="registerPassword" aria-describedby="emailHelp">
-										<div class="field-placeholder field-placeholder3"><span>Enter your password</span></div>
+										<div class="field-placeholder field-placeholder3"><span>Entra il vostro password</span></div>
 										<span class="text-muted ml-1">Occorre inserire almeno 8 caratteri e 1 numero.</span>
 									</div>
 									<div class="form-group field-wrapper col-lg-6 col-12 text-left mx-lg-2 px-lg-5 px-0 mb-4">
 										<input type="password" class="form-control" id="confirmPassword" aria-describedby="emailHelp">
-										<div class="field-placeholder"><span>Confirm password</span></div>
+										<div class="field-placeholder"><span>Conferma password</span></div>
 									</div>
 									<div class="form-check col-lg-6 col-12 mx-3 mt-4 px-lg-5 px-0">
 										<div class="row justify-content-between">
@@ -227,7 +227,7 @@ $current_page = 'account';
 										</div>
 									</div>
 									<div class="col-lg-6 col-12 mx-2 px-lg-5 px-0 mt-3">
-										<button id="registerButton" type="button" class="submit-btn waves-effect waves-light w-100" style="height: 50px;">Register</button>
+										<button id="registerButton" type="button" class="submit-btn waves-effect waves-light w-100" style="height: 50px;">Registrati</button>
 									</div>
 									<div class="col-lg-6 col-12 mx-2 px-lg-5 px-0 mt-3">
 										<span id="registerResponse" class="text-danger h6"></span>

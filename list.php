@@ -23,7 +23,7 @@ $current_page = 'list';
 		rel="stylesheet">
 
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="assets/img/HomePage/website-icon.png">
 
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
@@ -70,32 +70,35 @@ $current_page = 'list';
 	<!-- end Navbar -->
 
 	<!-- Main Header -->
-	<section id="main-header" style="margin-top: 200px;">
-		<div class="centered-header">
-			<h1>Pietra di Luna</h1>
-			<p>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident enim sequi doloremque numquam assumenda voluptate harum asperiores. Voluptatum, nobis officiis quasi hic commodi quaerat enim dignissimos! Dignissimos vero nisi nulla!
-			</p>
+	<section id="main-header" style="margin-top: 200px; margin-bottom: 100px;">
+		<div class="centered-header row justify-content-center">
+			<div class="col-12 text-center">
+				<h1>Pietra di Luna</h1>
+			</div>
+			<div class="col-5 mt-4">
+				<span class="text-muted h6">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident enim sequi doloremque numquam assumenda voluptate harum asperiores. Voluptatum, nobis officiis quasi hic commodi quaerat enim dignissimos! Dignissimos vero nisi nulla!
+				</span>
+			</div>		
 		</div>
 	</section>
 
 	<!-- Side Bar -->
 	<section id="main-section">
 		<div class="row">
-			
-			<div class="col-sm-12 col-md-3 col-lg-3" id="sidebar">
+			<div class="col-sm-12 col-md-3 col-lg-2" id="sidebar">
 				<div class="filter-container">
 
 					<div class="row">
 						<div class="col">
-							<h2>Filter</h2>
+							<h2>Filtri</h2>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col"> 
 							<button onclick="togleArrow(this)" class="btn btn-light" type="button" data-toggle="collapse" data-target="#category-collapse" aria-expanded="false" aria-controls="category-collapse">
-								Category 
+								Categoria 
 								<i class="arrow down"></i> 
 							</button>
 						</div>
@@ -120,7 +123,7 @@ $current_page = 'list';
 					<div class="row">
 						<div class="col"> 
 							<button onclick="togleArrow(this)" class="btn btn-light" type="button" data-toggle="collapse" data-target="#color-collapse" aria-expanded="false" aria-controls="color-collapse">
-								Color
+								Colore
 								<i class="arrow down"></i> 
 							</button>
 						</div>
@@ -128,12 +131,12 @@ $current_page = 'list';
 							<div class="collapse multi-collapse" id="color-collapse">
 								<form action="/action_page.php">
 									<input type="checkbox" id="blue" name="blue" value="Blue">
-									<label for="blue">Blue</label><br>
+									<label for="blue">Rosso</label><br>
 									<input type="checkbox" id="red" name="red" value="Red">
-									<label for="red">Red</label>
+									<label for="red">Verde</label>
 									<br>
 									<input type="checkbox" id="gray" name="gray" value="Gray">
-									<label for="Gray">Gray</label>
+									<label for="Gray">Grigo</label>
 									<br>
 								</form> 
 							</div>
@@ -143,7 +146,7 @@ $current_page = 'list';
 					<div class="row">
 						<div class="col"> 
 							<button onclick="togleArrow(this)" class="btn btn-light" type="button" data-toggle="collapse" data-target="#price-collapse" aria-expanded="false" aria-controls="price-collapse">
-								Price 
+								Prezzo
 								<i class="arrow down"></i> 
 							</button>
 						</div>
@@ -151,10 +154,10 @@ $current_page = 'list';
 							<div class="collapse multi-collapse" id="price-collapse">
 								<div class="card card-body">
 									<div class="price-container">
-										<label for="minPrice">&nbsp;From&nbsp;</label>
+										<label for="minPrice">&nbsp;Da&nbsp;</label>
 										<input type="number" oninput=" negateNegativePrice(this)" value="0" placeholder="0.00" name="minPrice" id="minPrice">
 									
-										<label for="maxPrice">&nbsp;To&nbsp;</label>
+										<label for="maxPrice">&nbsp;All&nbsp;</label>
 										<input type="number" oninput=" negateNegativePrice(this)" value="1" placeholder="500.00" name="maxPrice" id="maxPrice">
 									</div>
 							</div>
@@ -165,7 +168,7 @@ $current_page = 'list';
 				<div class="row">
 					<div class="col"> 
 						<button onclick="togleArrow(this)" class="btn btn-light" type="button" data-toggle="collapse" data-target="#discount-collapse" aria-expanded="false" aria-controls="discount-collapse">
-							Sale Discount
+							Affare
 							<i class="arrow down"></i> 
 						</button>
 					</div>
@@ -174,12 +177,12 @@ $current_page = 'list';
 							<div class="card card-body">
 									<form action="/action_page.php">
 										<input type="checkbox" id="nodiscount" name="nodiscount" value="nodiscount">
-										<label for="nodiscount">No Discount</label><br>
+										<label for="nodiscount">No Affare</label><br>
 										<input type="checkbox" id="upto20" name="upto20" value="upto20">
-										<label for="upto20">Up to 20%</label>
+										<label for="upto20">Finno all 20%</label>
 										<br>
 										<input type="checkbox" id="upto50" name="upto50" value="upto50">
-										<label for="upto50">Up to 50%</label>
+										<label for="upto50">Finno all 50%</label>
 										<br>
 									</form> 
 								</div>
@@ -189,128 +192,101 @@ $current_page = 'list';
 				</div>
 			</div>
 
-			<div class="col-sm-12 col-md-9 col-lg-9" id="product-section">
+			<div class="col-sm-12 col-md-9 col-lg-10" id="product-section">
 				<div class="container productCards-container">
-				
-					<div class="row">
-						<div class="col col-sm-12 col-md-12 col-lg-12" id="searchFilter-container">
-							<form class="form-inline ">
-								<input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
-								<i class="fas fa-search" aria-hidden="true"></i>
-							  </form>
-						</div>
-					</div>
+
 					<!-- Product Cards-->
 						<div class="row">
-							<div class="col-sm-12 col-lg-4 col-md-4 text-center  waves-effect waves-dark">
-								<div class="single-product-item">
-									<div class="product-image">
-										<a href="product.php"><img src="./assets/img/HomePage/Azul.jpg" alt=""></a>
-									</div>
-									<h3>Azul</h3>
-									<p class="product-price"><span>NECKLACE</span>145&euro;</p>
-									<div class="container">
-										<div class="row">
-											<div class="col-sm-12 col-md-12 col-lg-12">
-												<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-		
 							<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-								<div class="single-product-item">
-									<div class="product-image">
-										<a href="single-product.html"><img src="./assets/img/HomePage/Azul.jpg" alt=""></a>
+								<div class="row single-product-item">
+									<div class="product-image col-12">
+										<a href="product.php"><img src="./assets/img/HomePage/product1.jpg" class="w-100"></a>
 									</div>
-									<h3>Azul</h3>
-									<p class="product-price"><span>NECKLACE</span>145&euro;</p>
-									<div class="container">
-										<div class="row">
-											<div class="col-sm-12 col-md-12 col-lg-12">
-												<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
-											</div>
-										</div>
+									<div class="col-12">
+										<span class="h4">Azul</span>
+									</div>
+									<div class="col-12 mt-2 mb-0 text-left ml-3">
+										<span class="h6 text-secondary text-gold" >Materiale</span>
+									</div>
+									<div class="col-12 mt-0 mb-2 text-left ml-3">
+										<span class="h6 text-secondary" >Sarif</span>
+									</div>
+									<div class="col-12 mt-2 mb-0 text-left ml-3">
+										<span class="h6 text-secondary text-gold" >Descripcione</span>
+									</div>
+									<div class="col-12 mt-0 mb-4 text-left ml-3">
+										<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
+											r adipisicing elit. Nostrum, magna Nihil?</span>
+									</div>
+									<div class="col-12 mb-4 mt-1">
+										<span class="h4">145 &euro; <span class="text-muted h6">Tasse incluse</span></span>
 									</div>
 									
+									<div class="col-sm-12 col-md-12 col-lg-12">
+										<a href="cart.html" class="cart-btn w-75">Scopri</a>
+									</div>
 								</div>
 							</div>
-		
 							<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-								<div class="single-product-item">
-									<div class="product-image">
-										<a href="single-product.html"><img src="./assets/img/HomePage/Azul.jpg" alt=""></a>
+								<div class="row single-product-item">
+									<div class="product-image col-12">
+										<a href="product.php"><img src="./assets/img/HomePage/product2.jpg" class="w-100"></a>
 									</div>
-									<h3>Azul</h3>
-									<p class="product-price"><span>NECKLACE</span>145&euro;</p>
-									<div class="container">
-										<div class="row">
-											<div class="col-sm-12 col-md-12 col-lg-12">
-												<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
-											</div>
-										</div>
+									<div class="col-12">
+										<span class="h4">Azul</span>
+									</div>
+									<div class="col-12 mt-2 mb-0 text-left ml-3">
+										<span class="h6 text-secondary text-gold" >Materiale</span>
+									</div>
+									<div class="col-12 mt-0 mb-2 text-left ml-3">
+										<span class="h6 text-secondary" >Sarif</span>
+									</div>
+									<div class="col-12 mt-2 mb-0 text-left ml-3">
+										<span class="h6 text-secondary text-gold" >Descripcione</span>
+									</div>
+									<div class="col-12 mt-0 mb-4 text-left ml-3">
+										<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
+											r adipisicing elit. Nostrum, magna Nihil?</span>
+									</div>
+									<div class="col-12 mb-4 mt-1">
+										<span class="h4">145 &euro; <span class="text-muted h6">Tasse incluse</span></span>
 									</div>
 									
-								</div>
-							</div>
-						</div>
-					<!-- Another Row -->
-					<div class="row">
-						<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-							<div class="single-product-item">
-								<div class="product-image">
-									<a href="single-product.html"><img src="./assets/img/HomePage/Azul.jpg" alt=""></a>
-								</div>
-								<h3>Azul</h3>
-								<p class="product-price"><span>NECKLACE</span>145&euro;</p>
-								<div class="container">
-									<div class="row">
-										<div class="col-sm-12 col-md-12 col-lg-12">
-											<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
-										</div>
+									<div class="col-sm-12 col-md-12 col-lg-12">
+										<a href="cart.html" class="cart-btn w-75">Scopri</a>
 									</div>
 								</div>
-								
 							</div>
-						</div>
-	
-						<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-							<div class="single-product-item">
-								<div class="product-image">
-									<a href="single-product.html"><img src="./assets/img/HomePage/Azul.jpg" alt=""></a>
-								</div>
-								<h3>Azul</h3>
-								<p class="product-price"><span>NECKLACE</span>145&euro;</p>
-								<div class="container">
-									<div class="row">
-										<div class="col-sm-12 col-md-12 col-lg-12">
-											<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
-										</div>
+							<div class="col-sm-12 col-lg-4 col-md-4 text-center">
+								<div class="row single-product-item">
+									<div class="product-image col-12">
+										<a href="product.php"><img src="./assets/img/HomePage/product3.jpg" class="w-100"></a>
+									</div>
+									<div class="col-12">
+										<span class="h4">Azul</span>
+									</div>
+									<div class="col-12 mt-2 mb-0 text-left ml-3">
+										<span class="h6 text-secondary text-gold" >Materiale</span>
+									</div>
+									<div class="col-12 mt-0 mb-2 text-left ml-3">
+										<span class="h6 text-secondary" >Sarif</span>
+									</div>
+									<div class="col-12 mt-2 mb-0 text-left ml-3">
+										<span class="h6 text-secondary text-gold" >Descripcione</span>
+									</div>
+									<div class="col-12 mt-0 mb-4 text-left ml-3">
+										<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
+											r adipisicing elit. Nostrum, magna Nihil?</span>
+									</div>
+									<div class="col-12 mb-4 mt-1">
+										<span class="h4">145 &euro; <span class="text-muted h6">Tasse incluse</span></span>
+									</div>
+									
+									<div class="col-sm-12 col-md-12 col-lg-12">
+										<a href="cart.html" class="cart-btn w-75">Scopri</a>
 									</div>
 								</div>
-								
 							</div>
-						</div>
-	
-						<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-							<div class="single-product-item">
-								<div class="product-image">
-									<a href="single-product.html"><img src="./assets/img/HomePage/Azul.jpg" alt=""></a>
-								</div>
-								<h3>Azul</h3>
-								<p class="product-price"><span>NECKLACE</span>145&euro;</p>
-								<div class="container">
-									<div class="row">
-										<div class="col-sm-12 col-md-12 col-lg-12">
-											<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
-										</div>
-									</div>
-								</div>
-								
-							</div>
-						</div>
 					</div>
 				
 				</div>

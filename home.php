@@ -21,7 +21,7 @@ $current_page = 'home';
 		rel="stylesheet">
 
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="assets/img/HomePage/website-icon.png">
 
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
@@ -44,6 +44,9 @@ $current_page = 'home';
 	
 	<!-- responsive -->
 	<link rel="stylesheet" href="./assets/css/responsive.css">
+
+	<!-- waves -->
+	<link rel="stylesheet" href="./assets/css/waves.css">
 	
 	<!-- navbar style -->
 	<link rel="stylesheet" href="./assets/css/navbar.css">
@@ -129,10 +132,10 @@ $current_page = 'home';
 						<div class="hero-text">
 							<div class="hero-text-tablecell">
 								<p class="subtitle">Pietra di Luna</p>
-								<h1>A Daydream.</h1>
+								<h1>Segui i tuoi sogni</h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Explore Products</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
+									<a href="list.php" class="boxed-btn">Esplora i Prodotti</a>
+									<a href="contact.php" class="bordered-btn">Contattaci</a>
 								</div>
 							</div>
 						</div>
@@ -150,8 +153,8 @@ $current_page = 'home';
 								<p class="subtitle">Pietra di Luna</p>
 								<h1>100% Handmade</h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Explore Products</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
+									<a href="list.php" class="boxed-btn">Esplora i Prodotti</a>
+									<a href="contact.php" class="bordered-btn">Contattaci</a>
 								</div>
 							</div>
 						</div>
@@ -169,8 +172,8 @@ $current_page = 'home';
 								<p class="subtitle">Pietra di Luna</p>
 								<h1>Get December Discount!</h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Explore Products</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
+									<a href="list.php" class="boxed-btn">Esplora i Prodotti</a>
+									<a href="contact.php" class="bordered-btn">Contattaci</a>
 								</div>
 							</div>
 						</div>
@@ -231,7 +234,7 @@ $current_page = 'home';
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
-						<h3><span class="orange-text">Our</span> Products</h3>
+						<h3><span class="orange-text">Il nostri</span> Prodotti</h3>
 						<p>
 							Pietra di Luna offers you the best collections of jewels in robust stones, precious and
 							semi-precious stones,
@@ -243,71 +246,87 @@ $current_page = 'home';
 
 			<!-- Show on Mobile -->
 			<div id="productBtnContainer">
-				<a href="cart.html" class="cart-btn mainButtons">Discover Now</a>
+				<a href="cart.html" class="cart-btn mainButtons">Scopri adesso</a>
 			</div>
 
 			<!-- Hide on Mobile -->
 			<div class="row" id="product-row">
 				<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="./assets/img/HomePage/GIOVANNI_RASPINI.jpeg"
-									alt="">
-							</a>
+					<div class="row single-product-item">
+						<div class="product-image col-12">
+							<a href="product.php"><img src="./assets/img/HomePage/product1.jpg" class="w-100"></a>
 						</div>
-						<h3>Giovanni Raspini</h3>
-						<p class="product-price"><span>BRACELET</span>195&euro;</p>
-						
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-12 col-md-6 col-lg-6">
-									<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
-								</div>
-								<div class="col-sm-12 col-md-6 col-lg-6">
-									<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-bag"></i>Buy Now</a>
-								</div>
-							</div>
+						<div class="col-12">
+							<span class="h4">Azul</span>
 						</div>
-						
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Materiale</span>
+						</div>
+						<div class="col-12 mt-0 mb-2 text-left ml-3">
+							<span class="h6 text-secondary" >Sarif</span>
+						</div>
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Descripcione</span>
+						</div>
+						<div class="col-12 mt-0 mb-4 text-left ml-3">
+							<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
+								r adipisicing elit. Nostrum, magna Nihil?</span>
+						</div>									
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<a href="cart.html" class="cart-btn w-75">Scopri</a>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="./assets/img/HomePage/Azul.jpg" alt=""></a>
+					<div class="row single-product-item">
+						<div class="product-image col-12">
+							<a href="product.php"><img src="./assets/img/HomePage/product2.jpg" class="w-100"></a>
 						</div>
-						<h3>Azul</h3>
-						<p class="product-price"><span>NECKLACE</span>145&euro;</p>
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-12 col-md-12 col-lg-6">
-									<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
-								</div>
-								<div class="col-sm-12 col-md-12 col-lg-6">
-									<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-bag"></i>Buy Now</a>
-								</div>
-							</div>
+						<div class="col-12">
+							<span class="h4">Azul</span>
 						</div>
-						
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Materiale</span>
+						</div>
+						<div class="col-12 mt-0 mb-2 text-left ml-3">
+							<span class="h6 text-secondary" >Sarif</span>
+						</div>
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Descripcione</span>
+						</div>
+						<div class="col-12 mt-0 mb-4 text-left ml-3">
+							<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
+								r adipisicing elit. Nostrum, magna Nihil?</span>
+						</div>									
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<a href="cart.html" class="cart-btn w-75">Scopri</a>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="./assets/img/HomePage/Music.jpg" alt=""></a>
+					<div class="row single-product-item">
+						<div class="product-image col-12">
+							<a href="product.php"><img src="./assets/img/HomePage/product3.jpg" class="w-100"></a>
 						</div>
-						<h3>Music</h3>
-						<p class="product-price"><span>NECKLACE EARRINGS AND BRACELET</span>185&euro;</p>
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-12 col-md-6 col-lg-6">
-									<a href="cart.html" class="cart-btn"><i class="fa-regular fa-heart"></i>Wishlist</a>
-								</div>
-								<div class="col-sm-12 col-md-6 col-lg-6">
-									<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-bag"></i>Buy Now</a>
-								</div>
-							</div>
-						</div>	
+						<div class="col-12">
+							<span class="h4">Azul</span>
+						</div>
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Materiale</span>
+						</div>
+						<div class="col-12 mt-0 mb-2 text-left ml-3">
+							<span class="h6 text-secondary" >Sarif</span>
+						</div>
+						<div class="col-12 mt-2 mb-0 text-left ml-3">
+							<span class="h6 text-secondary text-gold" >Descripcione</span>
+						</div>
+						<div class="col-12 mt-0 mb-4 text-left ml-3">
+							<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
+								r adipisicing elit. Nostrum, magna Nihil?</span>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<a href="cart.html" class="cart-btn w-75">Scopri</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -336,7 +355,7 @@ $current_page = 'home';
 				<!--Content Column-->
 				<div class="content-column col-lg-6">
 					<h3><span class="orange-text">Deal</span> of the month</h3>
-					<h4>Special EARRINGS</h4>
+					<h4>ANELLI Speciali</h4>
 					<div class="text">Quisquam minus maiores repudiandae nobis, minima saepe id, fugit ullam similique!
 						Beatae, minima quisquam molestias facere ea. Perspiciatis unde omnis iste natus error sit
 						voluptatem accusant</div>
@@ -344,10 +363,10 @@ $current_page = 'home';
 					<div class="time-counter">
 						<div class="time-countdown clearfix" data-countdown="2020/2/01">
 							<div class="counter-column">
-								<div class="inner"><span class="count" id="day">00</span>Days</div>
+								<div class="inner"><span class="count" id="day">00</span>Giorni</div>
 							</div>
 							<div class="counter-column">
-								<div class="inner"><span class="count" id="hour">00</span>Hours</div>
+								<div class="inner"><span class="count" id="hour">00</span>Ore</div>
 							</div>
 							<div class="counter-column">
 								<div class="inner"><span class="count" id="minute">00</span>Mins</div>
@@ -357,7 +376,7 @@ $current_page = 'home';
 							</div>
 						</div>
 					</div>
-					<a href="cart.html" class="cart-btn mt-3 mainButtons" id="monthlyDealBtn">Buy Now</a>
+					<a href="cart.html" class="cart-btn mt-3 mainButtons" id="monthlyDealBtn">Vedi ora</a>
 				</div>
 			</div>
 		</div>
@@ -375,15 +394,15 @@ $current_page = 'home';
 				</div>
 				<div class="col-lg-4 col-md-12">
 					<div class="abt-text">
-						<p class="top-sub">Since Year 1999</p>
-						<h2>We are <span class="orange-text">Pietra di Luna</span></h2>
+						<p class="top-sub">Dal 1999</p>
+						<h2>Noi Siamo <span class="orange-text">Pietra di Luna</span></h2>
 						<p>Pietra di Luna was born from the union of two prestigious jewelry brands, namely <b>Dernier
 								Natìf</b> and <b>McLoud</b>. All the materials that compose our jewels are artfully
 							selected and checked in the smallest details, from the origin, to the type of material, to
 							create objects of excellent craftsmanship.</p>
 						<p>Within our site you will find a selection of objects and items from which to choose the one
 							that best suits you.</p>
-						<a href="about.html" class="boxed-btn mt-4 mainButtons">Know More</a>
+						<a href="about.html" class="boxed-btn mt-4 mainButtons">Scopri di piu</a>
 					</div>
 				</div>
 			</div>
@@ -396,7 +415,7 @@ $current_page = 'home';
 		<div class="container">
 			<h3>December sale is on! <br> with big <span class="orange-text">Discount...</span></h3>
 			<div class="sale-percent"><span>Sale! <br> Up to</span>50% <span>off</span></div>
-			<a href="shop.html" class="cart-btn btn-lg mainButtons">Shop Now</a>
+			<a href="shop.html" class="cart-btn btn-lg mainButtons">Scopri Ora</a>
 		</div>
 	</section>
 	<!-- end shop banner -->
@@ -408,8 +427,8 @@ $current_page = 'home';
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
-						<h3><span class="orange-text">Work</span>With Us</h3>
-						<p>Become part of a team that makes their work a passion!</p>
+						<h3><span class="orange-text">Lavora</span>Con Noi</h3>
+						<p>Entra a far parte di un team che fa del suo lavoro una passione!</p>
 					</div>
 				</div>
 			</div>
@@ -421,9 +440,9 @@ $current_page = 'home';
 							<div class="latest-news-bg news-bg-1"></div>
 						</a>
 						<div class="news-text-box">
-							<h3><a href="single-news.html">Jewelry design assistant</a></h3>
-							<p class="excerpt">Job Description</p>
-							<a href="single-news.html" class="read-more-btn">read more <i
+							<h3><a href="single-news.html">Gioleria design assistant</a></h3>
+							<p class="excerpt">DescrizioneDel lavoro</p>
+							<a href="single-news.html" class="read-more-btn">leggi di piu <i
 									class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
@@ -436,7 +455,7 @@ $current_page = 'home';
 						<div class="news-text-box">
 							<h3><a href="single-news.html">Jewellery Design Lecturer</a></h3>
 							<p class="excerpt">Job Description</p>
-							<a href="single-news.html" class="read-more-btn">read more <i
+							<a href="single-news.html" class="read-more-btn">leggi di piu <i
 									class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
@@ -449,7 +468,7 @@ $current_page = 'home';
 						<div class="news-text-box">
 							<h3><a href="single-news.html">Vacant Job Position</a></h3>
 							<p class="excerpt">Job Description</p>
-							<a href="single-news.html" class="read-more-btn">read more <i
+							<a href="single-news.html" class="read-more-btn">leggi di piu <i
 									class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
@@ -457,7 +476,7 @@ $current_page = 'home';
 			</div>
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<a href="news.html" class="boxed-btn mainButtons">Join Us</a>
+					<a href="news.html" class="boxed-btn mainButtons">Invia</a>
 				</div>
 			</div>
 		</div>
@@ -491,6 +510,9 @@ $current_page = 'home';
 
 	<!-- mean menu -->
 	<script src="assets/js/jquery.meanmenu.min.js"></script>
+
+	<!-- waves -->
+	<script src="assets/js/waves.js"></script>
 
 	<!-- sticker js -->
 	<script src="assets/js/sticker.js"></script>

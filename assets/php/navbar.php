@@ -21,13 +21,13 @@
 							<nav class="main-menu pt-3" style="display: block;">
 								<ul>
 									<li class="<?php echo $current_page == 'home' ?  'current-list-item' : ''; ?>"><a href="home.php">Home</a></li>
-									<li class="<?php echo $current_page == 'about' ?  'current-list-item' : ''; ?>"><a href="about.php">About</a></li>
-									<li class="<?php echo $current_page == 'workwithus' ?  'current-list-item' : ''; ?>"><a href="workwithus.php">Work With Us</a></li>
-									<li class="<?php echo $current_page == 'contact' ?  'current-list-item' : ''; ?>"><a href="contact.php">Contact Us</a></li>
-									<li class="<?php echo $current_page == 'list' ?  'current-list-item' : ''; ?>"><a href="list.php">Products</a></li>
+									<li class="<?php echo $current_page == 'about' ?  'current-list-item' : ''; ?>"><a href="about.php">Chi siamo</a></li>
+									<li class="<?php echo $current_page == 'workwithus' ?  'current-list-item' : ''; ?>"><a href="workwithus.php">Lavora con noi</a></li>
+									<li class="<?php echo $current_page == 'contact' ?  'current-list-item' : ''; ?>"><a href="contact.php">Contattaci</a></li>
+									<li class="<?php echo $current_page == 'list' ?  'current-list-item' : ''; ?>"><a href="list.php">Prodotti</a></li>
 									<li>
 										<div class="header-icons">
-											<a href="account.php" class="<?php echo $current_page == 'account' ?  'current-list-item' : ''; ?>"> <i class="far fa-user"></i> My account </a> 
+											<a href="account.php" class="<?php echo $current_page == 'account' ?  'current-list-item' : ''; ?>"> <i class="far fa-user"></i> Mio account </a> 
 											<a href="wishlist.php" class="<?php echo $current_page == 'wishlist' ?  'current-list-item' : ''; ?>"> <i class="fa-regular fa-heart"></i> </a> 
 											<a class="mobile-hide search-bar-icon">
 												<i class="fas fa-search"></i>
