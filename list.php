@@ -12,7 +12,7 @@ $current_page = 'list';
 		content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Pietra di Luna | Home</title>
+	<title>Pietra di Luna | Shop</title>
 
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="./assets/css/multiproduct.css">
@@ -51,7 +51,6 @@ $current_page = 'list';
 	<link rel="stylesheet" href="./assets/css/navbar.css">
 	<link rel="stylesheet" href="./assets/css/meanmenu.min.css">
 
-
 	<!-- shop style -->
 	<link rel="stylesheet" href="./assets/css/shop.css">
 
@@ -69,19 +68,19 @@ $current_page = 'list';
 	?>
 	<!-- end Navbar -->
 
-	<!-- Main Header -->
-	<section id="main-header" style="margin-top: 200px; margin-bottom: 100px;">
-		<div class="centered-header row justify-content-center">
-			<div class="col-12 text-center">
-				<h1>Pietra di Luna</h1>
+
+	<div class="breadcrumb-section breadcrumb-bg">
+		<div class="container">
+		  <div class="row">
+			<div class="col-lg-8 offset-lg-2 text-center">
+			  <div class="breadcrumb-text">
+				<p>Pietra di luna</p>
+				<h1>Shop</h1>
+			  </div>
 			</div>
-			<div class="col-5 mt-4">
-				<span class="text-muted h6">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident enim sequi doloremque numquam assumenda voluptate harum asperiores. Voluptatum, nobis officiis quasi hic commodi quaerat enim dignissimos! Dignissimos vero nisi nulla!
-				</span>
-			</div>		
+		  </div>
 		</div>
-	</section>
+	</div>
 
 	<!-- Side Bar -->
 	<section id="main-section">
@@ -196,99 +195,117 @@ $current_page = 'list';
 				<div class="container productCards-container">
 
 					<!-- Product Cards-->
-						<div class="row">
-							<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-								<div class="row single-product-item">
-									<div class="product-image col-12">
-										<a href="product.php"><img src="./assets/img/HomePage/product1.jpg" class="w-100"></a>
-									</div>
-									<div class="col-12">
-										<span class="h4">Azul</span>
-									</div>
-									<div class="col-12 mt-2 mb-0 text-left ml-3">
-										<span class="h6 text-secondary text-gold" >Materiale</span>
-									</div>
-									<div class="col-12 mt-0 mb-2 text-left ml-3">
-										<span class="h6 text-secondary" >Sarif</span>
-									</div>
-									<div class="col-12 mt-2 mb-0 text-left ml-3">
-										<span class="h6 text-secondary text-gold" >Descripcione</span>
-									</div>
-									<div class="col-12 mt-0 mb-4 text-left ml-3">
-										<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
-											r adipisicing elit. Nostrum, magna Nihil?</span>
-									</div>
-									<div class="col-12 mb-4 mt-1">
-										<span class="h4">145 &euro; <span class="text-muted h6">Tasse incluse</span></span>
-									</div>
-									
-									<div class="col-sm-12 col-md-12 col-lg-12">
-										<a href="cart.html" class="cart-btn w-75">Scopri</a>
-									</div>
+					<div class="row">
+						<div class="col-sm-12 col-lg-4 col-md-4 text-center">
+							<div class="row single-product-item waves-effect waves-dark" style="background-image: url('./assets/img/HomePage/product1.jpg');">
+								<div class="add-wishlist waves-effect waves-dark">
+									<span class="fa-regular fa-heart"></span>
 								</div>
+								<button class="learn-more">
+									<span class="learn-circle" aria-hidden="true">
+									<span class="icon arrow"></span>
+									</span>
+									<span class="button-text">Learn More</span>
+								</button>	
 							</div>
-							<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-								<div class="row single-product-item">
-									<div class="product-image col-12">
-										<a href="product.php"><img src="./assets/img/HomePage/product2.jpg" class="w-100"></a>
-									</div>
-									<div class="col-12">
-										<span class="h4">Azul</span>
-									</div>
-									<div class="col-12 mt-2 mb-0 text-left ml-3">
-										<span class="h6 text-secondary text-gold" >Materiale</span>
-									</div>
-									<div class="col-12 mt-0 mb-2 text-left ml-3">
-										<span class="h6 text-secondary" >Sarif</span>
-									</div>
-									<div class="col-12 mt-2 mb-0 text-left ml-3">
-										<span class="h6 text-secondary text-gold" >Descripcione</span>
-									</div>
-									<div class="col-12 mt-0 mb-4 text-left ml-3">
-										<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
-											r adipisicing elit. Nostrum, magna Nihil?</span>
-									</div>
-									<div class="col-12 mb-4 mt-1">
-										<span class="h4">145 &euro; <span class="text-muted h6">Tasse incluse</span></span>
-									</div>
-									
-									<div class="col-sm-12 col-md-12 col-lg-12">
-										<a href="cart.html" class="cart-btn w-75">Scopri</a>
-									</div>
+							<div class="col-12">
+								<span class="product-text">
+									YILVER AND TURQUOISE EARRINGS
+								</span>
+							</div>
+						</div>
+						<div class="col-sm-12 col-lg-4 col-md-4 text-center">
+							<div class="row single-product-item waves-effect waves-light" style="background-image: url('./assets/img/HomePage/product2.jpg');">
+								<div class="add-wishlist waves-effect waves-light">
+									<span class="fa-regular fa-heart"></span>
 								</div>
+								<button class="learn-more">
+									<span class="learn-circle" aria-hidden="true">
+									<span class="icon arrow"></span>
+									</span>
+									<span class="button-text">Learn More</span>
+								</button>
 							</div>
-							<div class="col-sm-12 col-lg-4 col-md-4 text-center">
-								<div class="row single-product-item">
-									<div class="product-image col-12">
-										<a href="product.php"><img src="./assets/img/HomePage/product3.jpg" class="w-100"></a>
-									</div>
-									<div class="col-12">
-										<span class="h4">Azul</span>
-									</div>
-									<div class="col-12 mt-2 mb-0 text-left ml-3">
-										<span class="h6 text-secondary text-gold" >Materiale</span>
-									</div>
-									<div class="col-12 mt-0 mb-2 text-left ml-3">
-										<span class="h6 text-secondary" >Sarif</span>
-									</div>
-									<div class="col-12 mt-2 mb-0 text-left ml-3">
-										<span class="h6 text-secondary text-gold" >Descripcione</span>
-									</div>
-									<div class="col-12 mt-0 mb-4 text-left ml-3">
-										<span class="h6 text-secondary" >Lorem ipsum dolor sit amet consectetu
-											r adipisicing elit. Nostrum, magna Nihil?</span>
-									</div>
-									<div class="col-12 mb-4 mt-1">
-										<span class="h4">145 &euro; <span class="text-muted h6">Tasse incluse</span></span>
-									</div>
-									
-									<div class="col-sm-12 col-md-12 col-lg-12">
-										<a href="cart.html" class="cart-btn w-75">Scopri</a>
-									</div>
+							<div class="col-12">
+								<span class="product-text">
+									YILVER AND TURQUOISE EARRINGS
+								</span>
+							</div>
+						</div>
+						<div class="col-sm-12 col-lg-4 col-md-4 text-center">
+							<div class="row single-product-item waves-effect waves-light" style="background-image: url('./assets/img/HomePage/product3.jpg');">
+								<div class="add-wishlist waves-effect waves-light">
+									<span class="fa-regular fa-heart"></span>
 								</div>
+								<button class="learn-more">
+									<span class="learn-circle" aria-hidden="true">
+									<span class="icon arrow"></span>
+									</span>
+									<span class="button-text">Learn More</span>
+								</button>
 							</div>
-					</div>
-				
+							<div class="col-12">
+								<span class="product-text">
+									YILVER AND TURQUOISE EARRINGS
+								</span>
+							</div>
+						</div>
+						<div class="col-sm-12 col-lg-4 col-md-4 text-center mt-5">
+							<div class="row single-product-item waves-effect waves-dark" style="background-image: url('./assets/img/HomePage/product1.jpg');">
+								<div class="add-wishlist waves-effect waves-dark">
+									<span class="fa-regular fa-heart"></span>
+								</div>
+								<button class="learn-more">
+									<span class="learn-circle" aria-hidden="true">
+									<span class="icon arrow"></span>
+									</span>
+									<span class="button-text">Learn More</span>
+								</button>	
+							</div>
+							<div class="col-12">
+								<span class="product-text">
+									YILVER AND TURQUOISE EARRINGS
+								</span>
+							</div>
+						</div>
+						<div class="col-sm-12 col-lg-4 col-md-4 text-center mt-5">
+							<div class="row single-product-item waves-effect waves-light" style="background-image: url('./assets/img/HomePage/product2.jpg');">
+								<div class="add-wishlist waves-effect waves-light">
+									<span class="fa-regular fa-heart"></span>
+								</div>
+								<button class="learn-more">
+									<span class="learn-circle" aria-hidden="true">
+									<span class="icon arrow"></span>
+									</span>
+									<span class="button-text">Learn More</span>
+								</button>
+							</div>
+							<div class="col-12">
+								<span class="product-text">
+									YILVER AND TURQUOISE EARRINGS
+								</span>
+							</div>
+						</div>
+						<div class="col-sm-12 col-lg-4 col-md-4 text-center mt-5">
+							<div class="row single-product-item waves-effect waves-light" style="background-image: url('./assets/img/HomePage/product3.jpg');">
+								<div class="add-wishlist waves-effect waves-light">
+									<span class="fa-regular fa-heart"></span>
+								</div>
+								<button class="learn-more">
+									<span class="learn-circle" aria-hidden="true">
+									<span class="icon arrow"></span>
+									</span>
+									<span class="button-text">Learn More</span>
+								</button>
+							</div>
+							<div class="col-12">
+								<span class="product-text">
+									YILVER AND TURQUOISE EARRINGS
+								</span>
+							</div>
+						</div>
+
+					</div>	
 				</div>
 				
 				<!-- END Product Cards -->

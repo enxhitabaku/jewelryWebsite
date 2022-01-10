@@ -1,9 +1,4 @@
 
-.sticky-wrapper {
-    background-color: #051922!important;
-    padding-bottom: 120px!important;
-}
-
 #main-header{
     display: flex;
     flex-flow: column;
@@ -32,7 +27,7 @@
     margin-bottom: 1.6rem;
     padding: .375rem .75rem;
 }
-#main-section button{
+#sidebar button{
     border: none;
     /* background-color: transparent; */
     font-weight: bolder;
